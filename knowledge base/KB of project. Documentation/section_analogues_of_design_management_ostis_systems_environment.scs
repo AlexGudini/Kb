@@ -1,0 +1,13 @@
+section_analogues_of_design_management_ostis_systems_environment
+=> nrel_main_idtf: [Раздел. Аналоги среды управления проектированием ostis-систем и их недостатки] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://section_analogues.pdf";;
+*);;
+*);;

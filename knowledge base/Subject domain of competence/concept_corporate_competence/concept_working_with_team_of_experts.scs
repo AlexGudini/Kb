@@ -1,0 +1,25 @@
+
+
+sc_node_not_relation ->concept_working_with_team_of_experts;;
+concept_working_with_team_of_experts
+=> nrel_main_idtf:
+          [работа с командой экспертов]
+            (* <- lang_ru;; *);;
+concept_working_with_team_of_experts => nrel_main_idtf:
+    
+    [working with team of experts]
+      (* <- lang_en;; *);;
+
+concept_working_with_team_of_experts <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(работа с командой экспертов)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Работа с командой экспертов - совместная работа с людьми
+    являющимися профессионалами в своей области.] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+

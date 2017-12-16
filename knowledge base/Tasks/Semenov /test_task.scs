@@ -1,0 +1,24 @@
+test_task
+	=> nrel_main_idtf: [Задача. тестовая задача для Семенова В. С.] (*<-lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Semenov_Vladislav_Sergeevich;
+	=> nrel_deadlines: ...(* -> rrel_from: ...
+				(* <- concept_time_point;;
+				   => nrel_translation_in_the_Gregorian_calender: ...
+					(* -> rrel_day: [20];;
+					   -> rrel_month: [12];;
+					   -> rrel_year: [2016];;
+					*);;
+				*);;
+				-> rrel_by: ...
+				(* <- concept_time_point;;
+				   => nrel_translation_in_the_Gregorian_calender: ...
+					(* -> rrel_day: [20];;
+					   -> rrel_month: [1];;
+ 					   -> rrel_year: [2017];;
+					*);;
+				*);;
+			      *);;

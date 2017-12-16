@@ -1,0 +1,27 @@
+concept_communication_skills
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [навыки общения] (*<-lang_ru;;*);
+		  [communication skills] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Навыки общения – способность эффективно взаимодействовать с окружающими.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (навыки общения)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Способность завоевывать поддержку на любом организационном уровне.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (навыки общения)] (*<- lang_ru;;*);;
+			*);;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_education_cognitive_competence;;
+
+concept_education_cognitive_competence
+=> nrel_main_idtf:
+					[учебно-познавательная компетенция]
+						(* <- lang_ru;; *);;
+concept_education_cognitive_competence => nrel_main_idtf:
+		
+		[education cognitive competence]
+			(* <- lang_en;; *);;
+
+concept_education_cognitive_competence <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(педагогическая компетенция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Учебно-познавательная компетенция - Совокупность знаний, способностей, 
+		умений и навыков, которые обуславливают познавательную активность
+		 человека при осуществлении речевой деятельности](*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+concept_education_cognitive_competence <=> nrel_equivalence:concept_experience;;
+
+
+

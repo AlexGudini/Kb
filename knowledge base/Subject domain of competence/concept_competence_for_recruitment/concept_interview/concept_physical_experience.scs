@@ -1,0 +1,24 @@
+
+sc_node_not_relation ->concept_physical_experience;;
+concept_physical_experience
+=> nrel_main_idtf:
+					[физическое интервью]
+						(* <- lang_ru;; *);;
+concept_physical_experience => nrel_main_idtf:
+		
+		[physical interview]
+			(* <- lang_en;; *);;
+
+concept_physical_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(физическое интервью)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Интервью соответствует определенной 
+		тематической структуре] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_physical_experience <= nrel_inclusion: concept_interview;;
+
+

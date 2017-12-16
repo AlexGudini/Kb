@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_php;;
+
+concept_php => nrel_main_idtf:
+					                     [PHP](*<-lang_ru;;*);
+					                     [PHP](*<-lang_en;;*);;
+
+
+concept_php <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [PHP - скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (PHP)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_php<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [В настоящее время PHP поддерживается подавляющим большинством хостинг-провайдеров и является 
+        одним из лидеров среди языков, применяющихся для создания динамических веб-сайтов.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(PHP, хостинг-провайдер, веб-сайт)] (* <- lang_ru;; *);;
+
+  *);;  

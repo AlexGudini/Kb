@@ -1,0 +1,29 @@
+concept_func_math_competence <- sc_node_not_relation;;
+
+concept_func_math_competence => nrel_main_idtf: [функциональная математическая компетенция](*<-lang_ru;;*);
+				      [functional math competence](*<-lang_en;;*);;
+
+concept_func_math_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Знание основных функциональных зависимостей](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (функциональная математическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_func_math_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Умение использовать функциональные зависимости при исследовании реальных процессов.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (функциональная математическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+
+

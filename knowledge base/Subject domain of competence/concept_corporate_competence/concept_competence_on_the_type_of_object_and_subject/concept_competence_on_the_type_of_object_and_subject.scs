@@ -1,0 +1,24 @@
+concept_competence_on_the_type_of_object_and_subject
+<-sc_node_not_relation;
+
+=> nrel_main_idtf: [компетенция по типу обьекта и субьекта] (*<-lang_ru;;*);
+              	   [competence on the type of object and subject] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Это компетенции, характеризуемые по типу обьекта и субьекта] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (компетенция по типу обьекта и субьекта)] (*<- lang_ru;;*);;
+			*);
+
+=> nrel_inclusion: concept_organizational_competence;
+                   concept_principal_competence;
+	    	   concept_behavioral_competence;
+		   concept_functional_competence;;
+
+
+

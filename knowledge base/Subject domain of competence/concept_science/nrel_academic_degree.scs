@@ -1,0 +1,21 @@
+nrel_academic_degree
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[ученая степень*](*<-lang_ru;;*);
+[academic degree*](*<-lang_en;;*);
+
+=>nrel_first_domain:person;
+=>nrel_second_domain:academic_degree;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->person;; ->academic_degree;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ученая степень* - это бинарное ориентированное отношение, которое связывает знак персоны со знаком ее ученой степени.](* <-lang_ru;; *);; 
+		*);;
+	*);;

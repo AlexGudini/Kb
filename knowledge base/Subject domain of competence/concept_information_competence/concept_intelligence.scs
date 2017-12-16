@@ -1,0 +1,27 @@
+sc_node_not_relation ->concept_intelligence;;
+concept_intelligence
+=> nrel_main_idtf:
+					[интеллект]
+						(* <- lang_ru;; *);;
+concept_intelligence => nrel_main_idtf:
+		
+		[intelligence]
+			(* <- lang_en;; *);;
+
+concept_intelligence <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(интеллект)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[качество психики, состоящее из способности 
+		приспосабливаться к новым ситуациям, способности 
+		к обучению и запоминанию на основе опыта, пониманию 
+		и применению абстрактных концепций 
+		и использованию своих знаний для управления 
+		окружающей средой] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

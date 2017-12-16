@@ -1,0 +1,23 @@
+nrel_technology
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[знание технологий*](*<-lang_ru;;*);
+[technology*](*<-lang_en;;*);
+
+=>nrel_first_domain:member;
+=>nrel_second_domain:technology;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->person;; ->technology;;*) ;; *);
+
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [знание технологий* - умение применять для реальных задач конкретные технологии программирования](* <-lang_ru;; *);; 
+		*);;
+	*);;

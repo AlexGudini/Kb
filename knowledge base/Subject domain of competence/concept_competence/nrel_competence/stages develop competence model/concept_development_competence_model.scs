@@ -1,0 +1,61 @@
+
+
+
+sc_node_not_relation ->concept_development_competence_model;;
+concept_development_competence_model
+=> nrel_main_idtf:
+          [разработка модели компетенций]
+            (* <- lang_ru;; *);;
+concept_development_competence_model => nrel_main_idtf:
+    
+    [development competence model]
+      (* <- lang_en;; *);;
+
+concept_development_competence_model <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(разработка модели компетенций)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Разработка модели компетенций - пути разработки модели компетенций] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+concept_development_competence_model => nrel_subdividing:
+    concept_preparatory_stage;
+        concept_develop_competency_model;
+        concept_running_model_work;
+        concept_working_out_the_levels_of_competency_model;
+        concept_formation_of_competency_profiles_for_specific_positions;;
+ 
+
+
+concept_professional_competence
+=> nrel_main_idtf:
+  [профессиональная компетенция]
+  (* <- lang_ru;; *);
+  [professional competence]
+  (* <- lang_en;; *);;
+
+concept_personal_business_competence
+=> nrel_main_idtf:
+  [компетенция личного бизнеса]
+  (* <- lang_ru;; *);
+  [personal business competence]
+  (* <- lang_en;; *);;
+
+
+concept_communication_competence
+=> nrel_main_idtf:
+  [коммуникативная компетенция]
+  (* <- lang_ru;; *);
+  [communication competence]
+  (* <- lang_en;; *);;
+
+concept_lead_competence
+=> nrel_main_idtf:
+  [управленческая компетенция]
+  (* <- lang_ru;; *);
+  [lead competence]
+  (* <- lang_en;; *);;

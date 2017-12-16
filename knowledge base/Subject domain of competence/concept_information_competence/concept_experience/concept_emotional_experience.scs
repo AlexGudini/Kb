@@ -1,0 +1,25 @@
+
+sc_node_not_relation ->concept_emotional_experience;;
+concept_emotional_experience
+=> nrel_main_idtf:
+					[эмоциональный опыт]
+						(* <- lang_ru;; *);;
+concept_emotional_experience 
+=> nrel_main_idtf:
+		            [emotional experience]
+			            (* <- lang_en;; *);;
+
+concept_emotional_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(эмоциональный опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Эмоциональный опыт - совокупность эмоциональных переживаний] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+
+
+

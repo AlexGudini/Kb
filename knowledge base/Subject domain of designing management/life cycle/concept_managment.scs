@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_managment;;
+
+concept_managment => nrel_main_idtf: [менеджмент] (*<- lang_ru;;*);
+                                     [managment] (*<- lang_en;;*);
+                  => nrel_idtf: [управление] (*<- lang_ru;;*);;

@@ -1,0 +1,4 @@
+sc_node_not_relation -> concept_license;;
+
+concept_license => nrel_main_idtf: [лицензия] (*<- lang_ru;;*);
+                                   [license] (*<- lang_en;;*);;

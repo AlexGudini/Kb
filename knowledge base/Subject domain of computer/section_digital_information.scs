@@ -1,0 +1,12 @@
+section_domain_digital_information
+	=>nrel_main_idtf:[Раздел цифровой информации](*<-lang_ru;;*);
+			 [Section domain digital information](*<-lang_en;;*);;
+
+
+section_domain_digital_information
+->rrel_key_sc_element_of_subject_domain:
+	concept_INM_installation;
+	concept_software;
+	programming_language;
+	nrel_author;
+	nrel_date_of_creation;;

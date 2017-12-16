@@ -1,0 +1,53 @@
+sc_node_not_relation -> concept_sql;;
+
+concept_sql => nrel_main_idtf:
+					                     [SQL](*<-lang_ru;;*);
+					                     [SQL](*<-lang_en;;*);;
+
+
+concept_sql <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [SQL — формальный непроцедурный язык программирования, применяемый для создания,
+                           модификации и управления данными в произвольной реляционной базе данных, управляемой 
+                           соответствующей системой управления базами данных (СУБД).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (SQL)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_sql<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Язык SQL был создан в 1970х годах под названием “SEQUEL” для системы управления базами данных (СУБД) System R. ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(язык, SQL, база данных, управление)] (* <- lang_ru;; *);;
+
+  *);; 
+
+  concept_sql<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [SQL создавался как простой стандартизированный способ извлечения 
+        и управления данными, содержащимися в реляционной базе данных.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(SQL, управление данными, база данных)] (* <- lang_ru;; *);;
+
+  *);;  
+
+    concept_sql<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [В настоящее время SQL (по большей части в реализации Oracle) остается самым популярным из
+         языков управления базами данных, хотя и существует ряд альтернатив. ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(SQL, Oracle, язык управления базами данных)] (* <- lang_ru;; *);;
+
+  *);;  

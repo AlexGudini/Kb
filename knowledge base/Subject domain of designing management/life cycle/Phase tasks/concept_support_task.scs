@@ -1,0 +1,16 @@
+sc_node_norole_relation -> concept_support_task;;
+
+concept_support_task => nrel_main_idtf: [задача сопровождения] (*<- lang_ru;;*);
+                                      	   [support task] (*<- lang_en;;*);
+
+			<- concept_project_task;
+
+			<- rrel_key_sc_element: ...
+                        (* 
+                          <- sc_text_definition;;
+ 		          <= nrel_sc_text_translation: ... 
+                          (*
+                            -> [Задача, решаемая на стадии сопровождения проекта.] (*<- lang_ru;;*);; 
+                           *);;
+                          => nrel_main_idtf: [Опр. (задача сопровождения)] (*<- lang_ru;;*);;
+                         *);;

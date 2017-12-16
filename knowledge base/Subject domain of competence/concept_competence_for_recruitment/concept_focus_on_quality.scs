@@ -1,0 +1,27 @@
+concept_focus_on_quality
+<-sc_node_not_relation;
+
+=> nrel_main_idtf: [ориентация на качество] (*<-lang_ru;;*);
+		   [focus on quality] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Ориентация на качество - это исполнение обязанностей внимательно, скурпулезно, аккуратно.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (ориентация на качество)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Выполнение поручения с первого раза, либо скорейшая корректировка недостатков в случае их появления.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (ориентация на качество)] (*<- lang_ru;;*);;
+			*);;

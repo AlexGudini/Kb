@@ -1,0 +1,130 @@
+subject_domain_of_desicion_systems
+=> nrel_main_idtf:
+	[Система понятий предметной области компетенций]
+	(* <- lang_ru;; *);
+	[Defenition system of competence subject area]
+	(* <- lang_en;; *);
+
+<- subject_domain;
+-> rrel_maximum_studied_object_class: 
+        concept_competence_model;
+        concept_competence_library;;
+
+
+	
+
+
+sc_node_not_relation -> concept_competence_model;;
+
+concept_competence_model
+=> nrel_main_idtf: 
+		[модель компетенций](* <- lang_ru;; *);;
+
+concept_competence_model
+=> nrel_main_idtf:
+		[сompetence model](* <- lang_en;; *);;
+
+concept_competence_model<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	=>nrel_idtf:[Опр.(модель компетенций)](*<-lang_ru;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->[Модель компетенций 
+			– полный набор характеристик, 
+			позволяющий человеку успешно выполнять функции, 
+			соответствующие его должности. ](* <- lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_competence_model<-rrel_key_sc_element:...
+(*
+	=>nrel_idtf:[Утв.(модели корпоративных компетенций)](*<-lang_ru;;*);;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...
+	(*
+		->[Пример модели корпоративных 
+		компетенций  производственной 
+		компании 
+		Корпоративные компетенции:
+		– личная эффективность
+		– лояльность и деловая этика
+		– профессиональное развитие
+		Управленческие компетенции:
+		– управление командой
+		– управление задачами/процессами.
+		Профессиональные  компетенции 
+		для сотрудника отдела продаж:
+		–  профессионализм  и  бизнес-видение
+		– эффективная коммуникация;
+		– нацеленность на результат.](* <- lang_ru;;*);;
+	*);;
+*);;
+
+concept_competence_model => nrel_subdividing:
+	concept_competence_by_levels;
+	concept_competence_without_levels;;
+
+
+
+sc_node_not_relation -> concept_competence_library;;
+concept_competence_library
+=> nrel_main_idtf: 
+		[библиотека компетенций](* <- lang_ru;; *);;
+
+concept_competence_library
+=> nrel_main_idtf:
+		[сompetence library](* <- lang_en;; *);;
+
+concept_competence_library<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	=>nrel_idtf:[Опр.(библиотека компетенций)](*<-lang_ru;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->[Библиотека компетенций - это универсальная модель 
+		компетенций, которая объединяет в себе компетенции 
+		по конкретным видам профессиональной деятельности](* <- lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_competence_library<-rrel_key_sc_element:...
+(*
+	=>nrel_idtf:[Утв.(собственная библиотека компетенций)](*<-lang_ru;;*);;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...
+	(*
+		->[При использовании библиотеки Вы можете создать
+		 собственный вариант модели компетенций для 
+		 конкретной должности, выбрав из библиотеки те 
+		 компетенции, которые соответствуют функционалам
+		  должности ваших специалистов.](* <- lang_ru;;*);;
+	*);;
+*);;
+
+concept_competence_library => nrel_inclusion:
+	concept_personal_business_competence;
+	concept_communication_competence;
+	concept_education_cognitive_competence;
+	concept_environmental_competence;
+	concept_pedagogical_competence;
+	concept_research_competence;
+	concept_valeological_competence;
+	concept_lead_competence;
+	concept_professional_competence;
+	concept_value_semantic_competence;
+	concept_social_and_political_competence;;
+
+
+
+
+
+
+
+
+
+

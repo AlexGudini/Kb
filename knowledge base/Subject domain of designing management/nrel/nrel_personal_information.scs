@@ -1,0 +1,35 @@
+nrel_personal_information
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[персональные данные*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:individual;
+=>nrel_second_domain:prersonal_information;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->individual;; ->personal_information;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Персональные данные – это любая информация, относящаяся к прямо или косвенно определённому физическому лицу (субъекту персональных данных).](* <-lang_ru;; *);; 
+		*);;
+	*);
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [К персональным данным можно отнести контактные данные участника проекта и его местоположение, а также его звания (и/или учёная степень), персональную фотографию](* <-lang_ru;; *);; 
+		*);;
+	*);;
+

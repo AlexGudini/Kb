@@ -1,0 +1,25 @@
+nrel_competence_type
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf: [вид компетенции*] (*<-lang_ru;;*);
+=>nrel_main_idtf: [competence type*] (*<-lang_en;;*);
+
+<-rrel_key_sc_element: ...
+			(*
+			<-sc_explanation;;
+			
+			<=nrel_sc_text_translation: ...
+						(*
+						->[Отношение, показывающее разделение компетенции по видам.](*<-lang_ru;;*);;
+						*);;
+			=>nrel_main_idtf: [Опр. (вид компетенции*)](*<-lang_ru;;*);;
+			*);
+
+=>nrel_first_domain: concept_competence;
+=>nrel_second_domain: concept_education_cognitive_competence;
+		      concept_information_competence;
+		      concept_communication_competence;;
+
+nrel_competence_type <- antireflexive_relation;;
+nrel_competence_type <- antisymmetric_relation;;
+nrel_competence_type <- antitransitive_relation;;

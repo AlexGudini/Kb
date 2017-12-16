@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_attention;;
+
+concept_attention => nrel_main_idtf:
+					                     [внимание](*<-lang_ru;;*);
+					                     [attention](*<-lang_en;;*);;
+
+concept_attention <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Внимание — избирательная направленность восприятия на тот или иной объект.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (внимание)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_attentio<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Внимание обусловливает успешную ориентировку субъекта в окружающем мире и обеспечивает 
+        более полное и отчётливое отражение его в психике. Объект внимания оказывается в центре нашего сознания, 
+        все остальное воспринимается слабо, неотчётливо, однако направленность нашего внимания может меняться.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(внимание, объект внимания)] (* <- lang_ru;; *);;
+
+  *);;  

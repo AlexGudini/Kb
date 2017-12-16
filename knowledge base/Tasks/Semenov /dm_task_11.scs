@@ -1,0 +1,8 @@
+dm_task_11
+	=> nrel_main_idtf:[Задача #11. Дипломное проектирование](*<- lang_ru;;*);
+	=> nrel_executor: Semenov_Vladislav_Sergeevich;
+	<- project_task;
+	<- important_project_task;
+	<- innovation_project_task;
+	<- proposed_project_task;
+	<- dm_decomposition_of_tasks;;

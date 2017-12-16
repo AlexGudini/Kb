@@ -1,0 +1,16 @@
+concept_work_with_clients
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [работа с клиентами] (*<-lang_ru;;*);
+		  [work with clients] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Навык, показывающий умеет ли менеджер работать с клиентами.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (работа с клиентами)] (*<- lang_ru;;*);;
+			*);;

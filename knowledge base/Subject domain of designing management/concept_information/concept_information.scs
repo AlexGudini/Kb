@@ -1,0 +1,48 @@
+sc_node_not_relation -> concept_information;;
+
+concept_information => nrel_main_idtf: [информация] (*<- lang_ru;;*);
+                                       [information] (*<- lang_en;;*);;
+concept_information <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Информация - сведения, независимо от формы их представления.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (информация)] (*<- lang_ru;;*);;
+			*);;
+
+concept_information <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Информация - знания о предметах, фактах, идеях и т. д., которыми могут обмениваться люди в рамках конкретного контекста.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (информация)] (*<- lang_ru;;*);;
+			*);;
+
+concept_information <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Информация - знания относительно фактов, событий, вещей, идей и понятий, которые в определённом контексте имеют конкретный смысл.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (информация)] (*<- lang_ru;;*);;
+			*);;
+
+concept_information <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Информация - сведения, воспринимаемые человеком и (или) специальными устройствами как отражение фактов материального или духовного мира в процессе коммуникации.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (информация)] (*<- lang_ru;;*);;
+			*);;
+

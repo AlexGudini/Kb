@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_operating_system;;
+
+concept_operating_system => nrel_main_idtf:
+					                     [операционная система](*<-lang_ru;;*);
+                              //? [ОС](*<-lang_ru;;*);
+					                     [operating system](*<-lang_en;;*);;
+
+
+concept_operating_system <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [ОС — комплекс взаимосвязанных программ, предназначенных для управления ресурсами 
+                          компьютера и организации взаимодействия с пользователем.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (операционная система)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_operating_system <-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [В большинстве вычислительных систем операционная система является основной, 
+        наиболее важной частью системного программного обеспечения.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(операционная система, программное обеспечение)] (* <- lang_ru;; *);;
+
+  *);;  
+
+  concept_operating_system -> concept_windows;;
+  concept_operating_system -> concept_linux;;

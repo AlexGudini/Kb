@@ -1,0 +1,16 @@
+section_communicatioin_competence
+	=>nrel_main_idtf:[Раздел компетенций общения](*<-lang_ru;;*);
+			 [Section communicatioin competence](*<-lang_en;;*);;
+
+	section_communicatioin_competence
+	->rrel_key_sc_element_of_subject_domain:
+		concept_business_ethics;
+		concept_communication_competence;
+		concept_discursive_competence;
+		concept_linguistic_competence;
+		concept_professional_competence;
+		concept_social_competence;
+		concept_sociocultural_competence;
+		concept_strategic_competence;
+		concept_subject_competence;
+		concept_verbal_competence;;

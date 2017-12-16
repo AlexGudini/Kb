@@ -1,0 +1,7 @@
+dm_task_18
+	=> nrel_main_idtf:[Задача #18. Утверждения](*<- lang_ru;;*);
+	<- project_task;
+	<- blocking_project_task;
+	<- project_task_error_fix;
+	<- executable_project_task;
+	<- dm_decomposition_of_tasks;;

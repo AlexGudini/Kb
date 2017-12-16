@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_windows;;
+
+concept_windows => nrel_main_idtf:
+					                     [windows](*<-lang_ru;;*);
+					                     [windows](*<-lang_en;;*);;
+
+concept_windows <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Windows — семейство проприетарных операционных систем корпорации Microsoft, 
+                          ориентированных на применение графического интерфейса при управлении.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (windows)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_windows<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [ Изначально Windows была всего лишь графической надстройкой для MS-DOS. 
+        По состоянию на август 2014 года под управлением операционных систем семейства Windows по данным ресурса Net Applications 
+        работает около 89% персональных компьютеров. ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(windows, графическая надстройка, Net Applications)] (* <- lang_ru;; *);;
+
+  *);;  

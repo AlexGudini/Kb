@@ -1,0 +1,38 @@
+sc_node_not_relation -> concept_initiative;;
+
+concept_initiative => nrel_main_idtf:
+					                     [инициативность](*<-lang_ru;;*);
+					                     [initiative](*<-lang_en;;*);;
+
+concept_initiative <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Инициативность – способность личности, выраженная в стремлении к самостоятельным 
+                          общественным начинаниям, инициативе, активности, предприимчивости. ] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (инициативность)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_initiative<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Инициативность – это большое количество свободной энергии, которая находит свой выход в плодотворной деятельности.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(инициативность)] (* <- lang_ru;; *);;
+
+  *);;  
+
+    concept_initiative<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Инициативность – это физическая и мыслительная активность, которая не остается незамеченной.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(инициативность, физическая активность, мыслительная активность)] (* <- lang_ru;; *);;
+
+  *);;  

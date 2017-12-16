@@ -1,0 +1,15 @@
+concept_level <- sc_node_not_relation;
+
+=> nrel_main_idtf: [уровень] (*<-lang_ru;;*);
+		   [level] (*<-lang_en;;*);
+
+<-rrel_key_sc_element: ...
+			(*
+			<-sc_explanation;;
+			
+			<=nrel_sc_text_translation: ...
+						(*
+						->[Уровень - это показатель величины или уровень развития чего-либо.](*<-lang_ru;;*);;
+						*);;
+			=>nrel_main_idtf: [Опр. (уровень)](*<-lang_ru;;*);;
+			*);;

@@ -1,0 +1,22 @@
+sc_node_not_relation -> concept_special_cognitive_abilities;;
+
+concept_special_cognitive_abilities => nrel_main_idtf:
+					[специальные когнитивные способности](*<-lang_ru;;*);
+					[special cognitive abilitiestask](*<-lang_en;;*);;
+
+concept_special_cognitive_abilities <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Когнитивные  возможности являются высшими функциями мозга, которые обеспечивают человеку возможность быть человеком.
+                           К ним относятся мышление, пространственная ориентация, понимание, вычисление, обучение, речь, 
+                           способность рассуждать.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (специальные когнитивные способности)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_special_cognitive_abilities -> concept_thinking;;
+concept_special_cognitive_abilities -> concept_understanding;;
+concept_special_cognitive_abilities -> concept_speech;;
+concept_special_cognitive_abilities -> nrel_training;;

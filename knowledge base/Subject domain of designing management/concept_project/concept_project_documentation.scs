@@ -1,0 +1,25 @@
+sc_node_not_relation -> concept_project_documentation;;
+
+concept_project_documentation =>
+ nrel_main_idtf: [документация проекта] (*<- lang_ru;;*);
+                 [project documentation] (*<- lang_en;;*);;
+
+
+concept_project_documentation <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(документация проекта)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Проектная документация представляет
+     собой документацию, содержащую
+      материалы в текстовой форме и в 
+      виде карт (схем)] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+concept_project_documentation => nrel_subdividing:
+	  concept_description_of_automated_functions;
+        concept_description_of_statement_of_tasks;
+        concept_description_of_classification_and_coding_systems_and_other_series_of_documents;;
+	

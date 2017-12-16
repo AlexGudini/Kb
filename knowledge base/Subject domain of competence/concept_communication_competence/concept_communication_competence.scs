@@ -1,0 +1,39 @@
+concept_communication_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [коммуникативная компетенция] (*<-lang_ru;;*);
+		  [communication competence] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Коммуникативная компетенция – способность средствами изучаемого языка осуществлять речевую деятельность в соответствии с целями и ситуацией общения в рамках той или иной сферы деятельности.] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (коммуникативная компетенция)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [В основе коммуникативной компетенции лежит комплекс умений, позволяющих участвовать в речевом общении в его продуктивных и рецептивных видах. ] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (коммуникативная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_communication_competence =>nrel_inclusion: concept_linguistic_competence;
+						   concept_verbal_competence;
+  						   concept_sociocltural_competence;
+ 						   concept_social_competence;
+					    	   concept_strategic_competence;
+						   concept_discursive_competence;
+						   concept_subject_competence;
+						   concept_professional_competence;;
+
+
+				

@@ -1,0 +1,46 @@
+sc_node_not_relation -> concept_technical_mean;;
+
+concept_technical_mean => nrel_main_idtf: [техническое средство] (*<- lang_ru;;*);
+                                          [technical mean] (*<- lang_en;;*);;
+
+
+concept_technical_mean <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(техническое средство)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Техническое средство - изделие, оборудование, аппаратура или их 
+		составные части, функционирование которых основано
+		 на законах электротехники, радиотехники и (или) 
+		 электроники, содержащие электронные компоненты и
+		  (или) схемы] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_technical_mean<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...(*
+		->[Техническое средство может быть 
+		радиоэлектронным средством (РЭС),
+		 средством вычислительной техники (СВТ),
+		 средством электронной автоматики (СЭА), 
+		 электротехническим средством, а также
+		  изделием промышленного, научного и 
+		  медицинского назначения (ПНМ-установки)](*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+concept_technical_mean => nrel_inclusion:
+	concept_electronic_means;
+	concept_computer_hardware;
+	concept_means_of_electronic_automation;
+	concept_electrical_equipment;
+	concept_INM_installation;;
+
+
+
+
+
+                                          

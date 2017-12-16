@@ -1,0 +1,14 @@
+sc_node_not_relation -> concept_atomic_project;;
+
+concept_atomic_project => nrel_main_idtf: [атомарный проект] (*<- lang_ru;;*);
+                                          [atomic project] (*<- lang_en;;*);;
+
+concept_atomic_project <- rrel_key_sc_element: ...
+						(*
+						<-sc_explanation;;
+						<=nrel_sc_text_translation: ...
+									(*
+									->[Атомарный проект - проект, не имеющий подпроектов.](*<-lang_ru;;*);;
+									*);;
+						=>nrel_main_idtf:[Опр. (атомарный проект)](*<-lang_ru;;*);;
+						*);;

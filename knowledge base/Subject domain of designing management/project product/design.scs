@@ -1,0 +1,23 @@
+design<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[проектирование](*<-lang_ru;;*);
+
+=>nrel_main_idtf:
+[design](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<=nrel_inclusion:activity;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [проектирование -деятельность по созданию проектов](* <-lang_ru;; *);; 
+		*);;
+	*);;

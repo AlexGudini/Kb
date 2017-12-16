@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_understanding;;
+
+concept_understanding => nrel_main_idtf:
+					[понимание](*<-lang_ru;;*);
+					[understanding](*<-lang_en;;*);;
+
+concept_understanding <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Понимание — универсальная операция мышления, связанная с усвоением нового содержания, 
+                          включением его в систему устоявшихся идей и представлений.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (понимание)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_understanding<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Понимание - способность осмыслять, постигать содержание, смысл, значение чего-нибудь.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(понимание, смысл)] (* <- lang_ru;; *);;
+
+  *);;

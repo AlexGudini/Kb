@@ -1,0 +1,21 @@
+sc_node_not_relation -> concept_labor_activity;;
+
+concept_labor_activity => nrel_main_idtf:
+					                     [трудовая деятельность](*<-lang_ru;;*);
+					                     [labor activity](*<-lang_en;;*);;
+
+concept_labor_activity <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Трудовая деятельность — выполнение за плату работы по определенной специальности, 
+                          квалификации или должности в соответствии с законодательством о труде, а также иная приносящая 
+                          доход деятельность, осуществляемая физическим лицом. ] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (трудовая деятельность)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_labor_activity -> concept_experience_of_work;;
+concept_labor_activity -> concept_seniority;;
+concept_labor_activity -> concept_organization;;

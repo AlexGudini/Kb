@@ -1,0 +1,17 @@
+concept_judgment
+<-sc_node_not_relation;;
+
+concept_judgment => nrel_main_idtf: [здравомыслящее судейство] (*<-lang_ru;;*);
+		  				[judgment] (*<-lang_en;;*);;
+
+
+concept_judgment <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Здравомыслящее судейство (judgment) – генерация здравых решений, основанных на интеллекте больше, чем на эмоциях, высокопрофессиональный анализ проблем, постоянное использование логики в процессе поиска.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (здравомыслящее судейство)] (*<- lang_ru;;*);;
+			*);;

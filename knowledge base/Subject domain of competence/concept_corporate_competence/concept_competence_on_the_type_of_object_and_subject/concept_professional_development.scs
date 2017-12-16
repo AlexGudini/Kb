@@ -1,0 +1,27 @@
+
+
+sc_node_not_relation ->concept_professional_development;;
+concept_professional_development
+=> nrel_main_idtf:
+					[профессиональная деятельность]
+						(* <- lang_ru;; *);;
+concept_professional_development => nrel_main_idtf:
+		
+		[professional development]
+			(* <- lang_en;; *);;
+
+concept_professional_development <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(профессиональная деятельность)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Профессиональная деятельность — это деятельность 
+		человека по своей профессии и специальности
+		 в определенной сфере и отрасли производства.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+
+

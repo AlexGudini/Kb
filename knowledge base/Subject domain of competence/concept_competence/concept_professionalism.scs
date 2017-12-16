@@ -1,0 +1,27 @@
+
+sc_node_not_relation ->concept_professionalism;;
+concept_professionalism
+=> nrel_main_idtf:
+					[профессионализм]
+						(* <- lang_ru;; *);;
+concept_professionalism => nrel_main_idtf:
+		
+		[professionalism]
+			(* <- lang_en;; *);;
+
+concept_professionalism <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(профессионализм)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Профессионализм — особое свойство людей
+		 систематически, эффективно и надёжно выполнять
+		 сложную (профессиональную) деятельность в самых
+		  разнообразных условиях.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_professionalism => nrel_inclusion:
+	      concept_professional_development;;
+	
+

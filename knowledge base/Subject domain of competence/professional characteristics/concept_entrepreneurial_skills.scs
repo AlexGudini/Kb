@@ -1,0 +1,17 @@
+sc_node_not_relation -> concept_entrepreneurial_skills;;
+
+concept_entrepreneurial_skills => nrel_main_idtf:
+					                     [предпринимательские навыки](*<-lang_ru;;*);
+					                     [entrepreneurial_skills](*<-lang_en;;*);;
+
+concept_entrepreneurial_skills <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Предпринимательские навыки - набор качеств, умений, способностей человека,
+                           позволяющих ему находить и использовать лучшее сочетание ресурсов для производства, продажи товаров,
+                            принимать разумные последовательные решения, создавать и применять новшества, идти на допустимый, оправданный риск.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (предпринимательские навыки)] (*<- lang_ru;;*);;
+                       *);;

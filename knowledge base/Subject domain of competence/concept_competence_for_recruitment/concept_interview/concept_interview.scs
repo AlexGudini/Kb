@@ -1,0 +1,41 @@
+sc_node_not_relation ->concept_interview;;
+concept_interview
+=> nrel_main_idtf:
+					[интервью]
+						(* <- lang_ru;; *);;
+concept_interview => nrel_main_idtf:
+		
+		[interview]
+			(* <- lang_en;; *);;
+
+concept_interview <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(интервью)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Предназначенная для печати беседа журналиста
+		 с каким-н. общественным деятелем.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_interview => nrel_inclusion:
+	      concept_structured_interview;
+       		concept_free_interview;
+        	concept_competency_interview;
+			concept_assessment_center;;
+
+
+
+concept_interview <-rrel_key_sc_element:
+	...  
+	(* 
+	<-typical_semantic_neighbourhood;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+                <=nrel_strict_inclusion:sc.g_text;;
+		-> rrel_example: "file://interview.png";;
+		*);;
+	*);;
+
+

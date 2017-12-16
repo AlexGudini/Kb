@@ -1,0 +1,32 @@
+
+
+
+
+sc_node_not_relation ->concept_formation_of_competency_profiles_for_specific_positions;;
+concept_formation_of_competency_profiles_for_specific_positions
+=> nrel_main_idtf:
+          [формирование профилей компетенции для определенных должностей]
+            (* <- lang_ru;; *);;
+concept_formation_of_competency_profiles_for_specific_positions => nrel_main_idtf:
+    
+    [formation of competency profiles for specific positions]
+      (* <- lang_en;; *);;
+
+concept_formation_of_competency_profiles_for_specific_positions <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(формирование профилей компетенции для определенных должностей)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Формирование профилей компетенции для определенных должностей - процесс
+    создания профилей компетенции для необходимых должностей в компании и тп.] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+
+
+
+
+
+

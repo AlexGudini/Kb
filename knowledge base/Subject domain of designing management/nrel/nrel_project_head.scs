@@ -1,0 +1,48 @@
+nrel_project_head
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[руководитель*](*<-lang_ru;;*);
+[head*](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<=nrel_strict_inclusion:member;
+
+=>nrel_first_domain:project;
+=>nrel_second_domain:individual;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->project;; ->individual;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [руководитель* – бинарное ориентированное отношение, каждая связка которого связывает знак проекта со знаком руководителя данного проекта](* <-lang_ru;; *);; 
+		*);;
+	*);
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [руководитель* – бинарное ориентированное отношение, каждая связка которого связывает знак множества проекта со знаком множества руководителя данного проекта. Руководитель - физическое лицо, принимающий решения по важнейшим вопросам деятельности аппарата управления с целью обеспечения эффективного труда коллектива](* <-lang_ru;; *);; 
+		*);;
+	*);
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://explanation_for_project_head.html"
+                (* <-lang_ru;; *);; 
+		*);;
+	*);;

@@ -1,0 +1,56 @@
+sc_node_not_relation -> introduction;;
+
+introduction => nrel_main_idtf: [внедрение] (*<- lang_ru;;*);
+                                        [introduction] (*<- lang_en;;*);
+
+		     => nrel_next_project_phase: support;;
+
+introduction <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Стадия проекта, на которой выполняется опытная эксплуатация проекта] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (внедрение)] (*<- lang_ru;;*);;
+                       *);
+
+		    => nrel_project_phase_task: ... 
+       		       (*
+			 -> ...
+			    (*
+			      <- concept_introduction_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Комплексная отладка подсистем ИС.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_introduction_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Обучение персонала.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_introduction_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Оформление акта о приемо-сдаточных испытаниях ИС.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_introduction_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Поэтапное внедрение ИС в эксплуатацию по подразделениям экономического объекта.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+			 *);;
+				

@@ -1,0 +1,13 @@
+concept_competence_for_recruitment
+<-sc_node_not_relation;
+
+=> nrel_main_idtf: [компетенция для подбора персонала] (*<-lang_ru;;*);
+		   [competence for recruitment] (*<-lang_en;;*);
+
+=> nrel_inclusion: concept_initiative_creativity;
+		   concept_judgment;
+		   concept_cooperation_with_colegues;
+		   concept_focus_on_quality;
+		   concept_adherence_to_safety_rules;
+		   concept_knowledge_of_the_material_and_theoretical_parts;
+		   concept_self_control;;

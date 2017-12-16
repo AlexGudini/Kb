@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_sensorymotor_qualifications;;
+
+concept_sensorymotor_qualifications => nrel_main_idtf:
+					[сенсоммоторные квалификации](*<-lang_ru;;*);
+					[sensorymotor qualifications](*<-lang_en;;*);;
+
+concept_sensorymotor_qualifications <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_explanation;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Сенсомоторные квалификации – профессионально значимые психофизиологические свойства: 
+                          координация движений, быстрота реакции, ловкость рук, глазомер, цветоразличение и др.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (сенсоммоторные квалификации)] (*<- lang_ru;;*);;
+                       *);;

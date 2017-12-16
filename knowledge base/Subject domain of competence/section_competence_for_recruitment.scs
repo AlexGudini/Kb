@@ -1,0 +1,26 @@
+
+
+section_concept_competence_for_recruitment
+	=>nrel_main_idtf:[Раздел компетенций по набору](*<-lang_ru;;*);
+			 [Section competence for recruitment](*<-lang_en;;*);;
+
+	section_concept_competence_for_recruitment
+	->rrel_key_sc_element_of_subject_domain:
+		concept_adherence_to_safety_rules;
+		concept_analysis_of_workload;
+		concept_competence_for_recruitment;
+		concept_cooperation_with_colegues;
+		concept_direct_observation;
+		concept_focus_on_quality;
+		concept_initiative_creativity;
+		concept_interviews_obtain_behavioral_examples;
+		concept_judgment;
+		concept_knowledge_of_the_material_and_theoretical_parts;
+		concept_method_of_repertory_grids;
+		concept_self_control;
+		concept_assessment_center;
+		concept_competency_interview;
+		concept_free_interview;
+		concept_interview;
+		concept_phusical_experience;;
+	

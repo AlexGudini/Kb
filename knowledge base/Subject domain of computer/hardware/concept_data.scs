@@ -1,0 +1,23 @@
+
+sc_node_not_relation ->concept_data;;
+concept_data
+=> nrel_main_idtf:
+					[дата]
+						(* <- lang_ru;; *);;
+concept_data => nrel_main_idtf:
+		
+		[data]
+			(* <- lang_en;; *);;
+
+concept_data <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(дата)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Календарное время какого-н. события, а также
+		 помета, указывающая время (год, месяц, число) 
+		 написания чего-н. (письма, статьи и т. п.).] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+

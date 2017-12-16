@@ -1,0 +1,17 @@
+sc_node_not_relation -> concept_self_management_skills;;
+
+concept_self_management_skills => nrel_main_idtf:
+					                     [навыки самоуправления](*<-lang_ru;;*);
+					                     [self_management_skills](*<-lang_en;;*);;
+
+concept_self_management_skills <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Навыки самоуправления - система действий, направленных на управление самим собой посредством самоконтроля, 
+                          самоанализа и самокоррекции.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (навыки самоуправления)] (*<- lang_ru;;*);;
+                       *);;
+

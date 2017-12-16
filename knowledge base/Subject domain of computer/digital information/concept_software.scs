@@ -1,0 +1,50 @@
+concept_software
+	<-sc_node_not_relation;;
+
+concept_software => nrel_main_idtf: [программное обеспечение] (*<- lang_ru;;*);
+                                      [software] (*<- lang_en;;*);;
+
+concept_software <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Программное обеспечение - все или часть программ, процедур, правил и соответствующей документации системы обработки информации. ] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (программное обеспечение)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_software<-rrel_key_sc_element: ...
+	(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+				-> rrel_example: [ПО — компьютерные программы, процедуры и, возможно, соответствующая документация и данные, относящиеся к функционированию компьютерной системы.](*<-lang_ru;;*);;
+			*);;
+		=> nrel_main_idtf: [Утв.(компьютерная программа, процедура, документация, данные, компьютерная система)] (* <- lang_ru;; *);;
+
+	*);;
+
+concept_software<-rrel_key_sc_element: ...
+	(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+				-> rrel_example: [ПО — программа или множество программ, используемых для управления компьютером.](*<-lang_ru;;*);;
+			*);;
+		=> nrel_main_idtf: [Утв.(программа, компьютер)] (* <- lang_ru;; *);;
+
+	*);;
+       	
+
+concept_software<-rrel_key_sc_element: ...
+	(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+				-> rrel_example: [ПО — совокупность программ системы обработки информации и программных документов, необходимых для эксплуатации этих программ.](*<-lang_ru;;*);;
+			*);;
+		=> nrel_main_idtf: [Утв.(пронрамма, информация, документ, экстплуатация)] (* <- lang_ru;; *);;
+
+	*);;
+

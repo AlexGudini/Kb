@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_project_life_cycle;;
+
+concept_project_life_cycle => nrel_main_idtf: [жизненный цикл проекта] (*<- lang_ru;;*);
+                                      	      [project life cycle] (*<- lang_en;;*);
+
+			   -> concept_project_phase; concept_organization; concept_managment;;
+
+concept_project_life_cycle <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Жизненный цикл проекта – последовательность фаз проекта (или этапов проекта), начиная с инициации проекта и заканчивая введением в эксплуатацию некоторого проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (жизненный цикл проекта)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_project_life_cycle <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Жизненный цикл проекта – это процесс проектирования и разработки некоторого проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (жизненный цикл проекта)] (*<- lang_ru;;*);;
+                       *);;

@@ -1,0 +1,37 @@
+concept_cognitive_competent
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [когнитивная компетентность] (*<-lang_ru;;*);
+		  [cognitive competent] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Когнитивная компетентность - это компетентность в сфере самостоятельной познавательной деятельности, основанная на усвоении способов приобретения знаний из различных источников информации, в том числе внешкольных.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (когнитивная компетентность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Готовность к постоянному повышению своего образовательного уровня.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (когнитивная компетентность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Педагог планирует решение и вырабатывает ее реализацию.] (*<- lang_ru;;*);; 
+                         *);;
+			*);;

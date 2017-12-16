@@ -1,0 +1,21 @@
+
+sc_node_not_relation -> concept_computer_hardware;;
+concept_computer_hardware => nrel_main_idtf: [средством вычислительной техники] (*<- lang_ru;;*);
+                                          [computer hardware] (*<- lang_en;;*);; 
+
+
+
+concept_computer_hardware <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(средством вычислительной техники)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Совокупность программных и технических элементов систем обработки данных] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+
+concept_computer_hardware <-rrel_key_sc_element_of_subject_domain:
+section_domain_hardware;;

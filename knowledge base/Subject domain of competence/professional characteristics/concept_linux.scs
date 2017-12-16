@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_linux;;
+
+concept_linux => nrel_main_idtf:
+					                     [линукс](*<-lang_ru;;*);
+					                     [linux](*<-lang_en;;*);;
+
+
+concept_linux <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Linux — ядро для Unix-подобных операционных систем.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (linux)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_linux <-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Ядро Linux создаётся и распространяется в соответствии с моделью разработки
+         свободного и открытого программного обеспечения. ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(linux, програмный код)] (* <- lang_ru;; *);;
+
+  *);;  

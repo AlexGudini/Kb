@@ -1,0 +1,15 @@
+objective<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[цель](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Цель - финальный результат,на который преднамеренно направлен процесс](* <-lang_ru;; *);; 
+		*);;
+	*);;

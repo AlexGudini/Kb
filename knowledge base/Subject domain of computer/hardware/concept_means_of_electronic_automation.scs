@@ -1,0 +1,21 @@
+
+
+
+sc_node_not_relation -> concept_means_of_electronic_automation;;
+concept_means_of_electronic_automation => nrel_main_idtf: [техническое средство] (*<- lang_ru;;*);
+                                          [means of electronic automation] (*<- lang_en;;*);;   
+
+concept_means_of_electronic_automation <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(техническое средство)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Электротехническое, электронное или радиоэлектронное 
+		изделие (оборудование, аппаратура или система), а 
+		также изделие (оборудование, аппаратура или система), 
+		содержащее электрические и (или) электронные компоненты] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+

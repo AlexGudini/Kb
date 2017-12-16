@@ -1,0 +1,17 @@
+concept_cooperation_with_colegues
+<-sc_node_not_relation;;
+
+concept_cooperation_with_colegues => nrel_main_idtf: [кооперация с коллегами] (*<-lang_ru;;*);
+		  				[cooperation with colegues] (*<-lang_en;;*);;
+
+
+concept_cooperation_with_colegues <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Кооперация с коллегами – свойство личности гармонизировать коллективные связи для гарантированно высокого результата.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (кооперация с коллегами)] (*<- lang_ru;;*);;
+			*);;

@@ -1,0 +1,24 @@
+
+concept_social_and_political_competence
+=> nrel_main_idtf:
+					[социальная и политическая компетенция]
+						(* <- lang_ru;; *);;
+concept_social_and_political_competence => nrel_main_idtf:
+		
+		[social and political competence]
+			(* <- lang_en;; *);;
+
+concept_social_and_political_competence <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(социальная и политическая компетенция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Социальная и политическая компетенция - навыки касающиеся социального взаимодействия людей и окружающей среды] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+concept_social_and_political_competence => nrel_inclusion:
+	concept_interview;
+	      concept_business_vision;;
+

@@ -1,0 +1,32 @@
+rrel_github
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[github'](*<-lang_en;;*);
+[гитхаб'](*<-lang_ru;;*);
+
+<-means_of_communication;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [github' - это ролевое отношение, связывающее знак исполнителя задания и знак его аккаунта на github.](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [Имя учётной записи (логина), по которому можно найти и связаться с исполнителем, который является пользователем хостинга github.](* <-lang_ru;; *);; 
+		*);;
+	*);;

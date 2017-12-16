@@ -1,0 +1,28 @@
+sc_node_not_relation -> developing;;
+
+developing => nrel_main_idtf: [разработка] (*<- lang_ru;;*);
+                                      [developing] (*<- lang_en;;*);
+
+		   => nrel_next_project_phase: testing;;
+
+developing <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Стадия проект, на которой он реализуется в соответствии с поставленными целями и задачами.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (разработка)] (*<- lang_ru;;*);;
+                       *);
+
+		    => nrel_project_phase_task: ... 
+       		       (*
+			 -> ...
+			    (*
+			      <- concept_developing_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Непосредственная реализация проекта в соответствии с поставленными целями и задачами.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+			 *);;

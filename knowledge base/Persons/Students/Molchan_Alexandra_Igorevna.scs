@@ -1,0 +1,64 @@
+Molchan_Alexandra_Igorevna
+
+=>nrel_main_idtf:[Молчан Александра Игоревна](*<-lang_ru;;*);
+
+<-person;
+
+=>nrel_contact_details:{
+rrel_mobile_phone:
+...(* <= nrel_sc_text_translation: ...(* -> rrel_key_sc_element: [+375296985727];;*);;*);
+
+rrel_skype:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[sashenkavesna](*<-lang_en;;*);;*);;*);
+
+rrel_email:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[sashenkavesna@gmail.com](*<-lang_en;;*);;*);;*);
+
+rrel_github:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[sashenkavesna](*<-lang_en;;*);;*);;*);
+
+rrel_bitbucket:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[sashenkavesna](*<-lang_en;;*);;*);;*)
+};
+
+=>nrel_home_adress:{
+rrel_country:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[Беларусь](*<-lang_ru;;*);;*);;*);
+
+rrel_city:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[Минск](*<-lang_ru;;*);;*);;*);
+
+rrel_postcode:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[220118];;*);;*);
+
+rrel_adress:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[ул.Шишкина,17-66](*<-lang_ru;;*);;*);;*)
+
+};
+
+=>nrel_job_adress:{
+rrel_country:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[Беларусь](*<-lang_ru;;*);;*);;*);
+
+rrel_city:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[Минск](*<-lang_ru;;*);;*);;*);
+
+rrel_adress:
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[ул.Платонова,39](*<-lang_ru;;*);;*);;*)
+
+};
+
+=>nrel_technology:{
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[Java](*<-lang_en;programming_language;;*);;*);;*);
+...(* <= nrel_sc_text_translation:...(* -> rrel_key_sc_element:[OOP](*<-lang_en;technology;;*);;*);;*)
+};
+
+=>nrel_current_project_task:dm_task_9;
+
+=>nrel_previous_project_task:test_task;;
+
+
+
+
+
+

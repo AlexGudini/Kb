@@ -1,0 +1,8 @@
+
+sc_node_not_relation -> concept_electronic_means;;
+
+concept_electronic_means => nrel_main_idtf: [радиоэлектронное средство] (*<- lang_ru;;*);
+                                          [electronic means] (*<- lang_en;;*);;
+
+concept_electronic_means <-rrel_key_sc_element_of_subject_domain:
+section_domain_hardware;;

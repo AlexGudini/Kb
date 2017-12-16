@@ -1,0 +1,26 @@
+
+
+
+sc_node_not_relation ->concept_analysis_of_workload;;
+concept_analysis_of_workload
+=> nrel_main_idtf:
+          [анализ рабочей нагрузки]
+            (* <- lang_ru;; *);;
+concept_analysis_of_workload => nrel_main_idtf:
+    
+    [analysis of workload]
+      (* <- lang_en;; *);;
+
+concept_analysis_of_workload <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(анализ рабочей нагрузки)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Анализ рабочей нагрузки – это анализ совокупности поддающихся 
+    учету воздействий, которые влияют в
+     рабочей системе на человека. ] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+

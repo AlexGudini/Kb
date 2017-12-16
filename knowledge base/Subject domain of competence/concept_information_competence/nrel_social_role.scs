@@ -1,0 +1,26 @@
+sc_node_norole_relation ->nrel_social_role;;
+nrel_social_role
+=> nrel_main_idtf:
+					[социальная роль*]
+						(* <- lang_ru;; *);;
+nrel_social_role => nrel_main_idtf:
+		
+		[social role*]
+			(* <- lang_en;; *);;
+
+nrel_social_role =>nrel_first_domain: concept_action;;
+nrel_social_role =>nrel_second_domain: concept_person;; 
+
+nrel_social_role <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(социальная роль)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Социальная роль — это совокупность действий, 
+		которые должен выполнить человек, 
+		занимающий данный статус. ] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+

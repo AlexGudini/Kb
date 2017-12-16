@@ -1,0 +1,47 @@
+concept_competence <- sc_node_not_relation;;
+
+concept_competence => nrel_main_idtf: [компетенция](*<-lang_ru;;*);
+				      [competence](*<-lang_en;;*);;
+
+concept_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Компетенция (от лат. competere — соответствовать, подходить) — это личностная способность специалиста (сотрудника) решать определённый класс профессиональных задач.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_competence <- rrel_key_sc_element: ...
+			(*
+			 <- sc_explanation;;
+
+			<= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Под компетенцией понимают формально описанные требования к личностным, профессиональным и т. п. качествам сотрудников компании (или к какой-то группе сотрудников).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (компетенция)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_competence <- rrel_key_sc_element: ...
+			(*
+			 <- sc_explanation;;
+
+			<= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Компетенции используются при оценке персонала.] (*<- lang_ru;;*);;
+                         *);;
+                        => nrel_main_idtf: [Утв. (компетенция)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_competence => nrel_inclusion: concept_productive_competence;
+			   	      concept_autonomizing_competence;
+				      concept_moral_competence;
+				      concept_corporate_competence;
+				      concept_math_competence;
+				      concept_competence_of_the_sales_manager;
+				      concept_competence_on_the_type_of_object_and_subject;
+				      concept_competence_for_recruitment;
+				      concept_manage_competence;;

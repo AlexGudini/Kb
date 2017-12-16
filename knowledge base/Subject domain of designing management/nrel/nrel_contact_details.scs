@@ -1,0 +1,48 @@
+nrel_contact_details
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[контактные данные*](*<-lang_ru;;*);
+
+=>nrel_idtf:
+[средства связи*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:member;
+=>nrel_second_domain:contact_details;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->member;; ->contact_details;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [контактные данные* – бинарное ориентированное отношение, каждая связка которого связывает участника проекта с его контактными данными](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Контактные данные определяет средства, с помощью которых можно связаться с участником проекта](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://explanation_for_nrel_contact_details.html"(* <-lang_ru;; *);; 
+		*);;
+	*);;

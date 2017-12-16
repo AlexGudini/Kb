@@ -1,0 +1,16 @@
+concept_learning_new_skills
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [освоение новых навыков] (*<-lang_ru;;*);
+		  [learning new skills] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Освоение и использование новых знаний и навыков - это не только постоянная учеба, но и использование в работе полученных в результате такой учебы, новых знаний, навыков, своего и чужого опыта;] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (освоение новых навыков)] (*<- lang_ru;;*);;
+			*);;

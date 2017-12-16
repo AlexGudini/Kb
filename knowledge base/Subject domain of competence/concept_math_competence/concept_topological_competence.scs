@@ -1,0 +1,16 @@
+concept_topological_competence <- sc_node_not_relation;;
+
+concept_topological_competence => nrel_main_idtf: [топологическая компетенция](*<-lang_ru;;*);
+				    		  [topological competence](*<-lang_en;;*);;
+
+concept_topological_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Знание геометрических свойств фигур и пространств, которые сохраняются при непрерывных деформациях.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (топологическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+

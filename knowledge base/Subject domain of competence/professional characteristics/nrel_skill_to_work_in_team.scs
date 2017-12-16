@@ -1,0 +1,47 @@
+nrel_skill_to_work_in_team=>nrel_idtf:
+[умение работать в команде*](*<-lang_ru;;*);;
+nrel_skill_to_work_in_team=>nrel_main_idtf:
+[умение работать в команде*](*<-lang_ru;;*);;
+nrel_skill_to_work_in_team=>nrel_idtf:
+[skill to work in team*](*<-lang_en;;*);;
+
+nrel_skill_to_work_in_team=>nrel_first_domain:person;;
+nrel_skill_to_work_in_team=>nrel_second_domain:teamteam;;
+nrel_skill_to_work_in_team=>nrel_definitional_domain: ...
+	(*
+		<=nrel_union:...
+			(*
+				->person;;
+				->team;;
+			*);;
+	*);;
+
+nrel_skill_to_work_in_team=>nrel_arity_of_relations: 2
+	(*
+		<-number;;
+	*);;
+
+relation=>nrel_inclusion:binary_relation;;
+relation=>nrel_inclusion:oriented_relation;;
+binary_relation=>nrel_inclusion:antisymmetric_relation;;
+binary_relation=>nrel_inclusion:antitransitive_relation;;
+binary_relation=>nrel_inclusion:antireflexive_relation;;
+oriented_relation->nrel_skill_to_work_in_team;;
+antisymmetric_relation->nrel_skill_to_work_in_team;;
+antitransitive_relation->nrel_skill_to_work_in_team;;
+antireflexive_relation->nrel_skill_to_work_in_team;;
+
+nrel_skill_to_work_in_team<-rrel_key_sc_element: ...
+	(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->[Умение работать в команде - умение человека взаимодействовать с людьми в команде.](*<-lang_ru;;*);;
+			*);;
+		<=nrel_using_constants: ...
+			(*
+				->software;;
+			*);;
+		=>nrel_main_idtf:[Опр.(знание программных средств*)](*<-lang_ru;;*);;
+
+	*);;

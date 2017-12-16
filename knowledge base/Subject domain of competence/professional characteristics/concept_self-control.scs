@@ -1,0 +1,51 @@
+sc_node_not_relation -> concept_self_control;;
+
+concept_self_control => nrel_main_idtf:
+					[самоконтроль](*<-lang_ru;;*);
+					[self-control](*<-lang_en;;*);;
+
+concept_self_control <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Самоконтроль — способность контролировать свои эмоции, мысли и поведение.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (самоконтроль)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_self_control<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [ Самоконтроль основывается на воле — высшей психической функции, 
+        определяющей способность человека принимать осознанные решения и претворять их в жизнь.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(самоконтроль, воля, осознанное решение)] (* <- lang_ru;; *);;
+
+  *);;
+
+concept_self_control<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Самоконтроль является важнейшим элементом в способности человека достигать поставленных целей.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(самоконтроль, элемент, способности человека)] (* <- lang_ru;; *);;
+
+  *);;
+
+  concept_self_control<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Самоконтроль противопоставляется импульсивности — неспособности противостоять сиюминутным желаниям.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(самоконтроль, импульсивность)] (* <- lang_ru;; *);;
+
+  *);;
+
+

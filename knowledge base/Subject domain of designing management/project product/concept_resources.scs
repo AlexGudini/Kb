@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_resources;;
+
+concept_resources => nrel_main_idtf: [ресурсы] (*<- lang_ru;;*);
+                                     [resources] (*<- lang_en;;*);;
+
+concept_resources -> concept_member; concept_equipment; concept_aid; concept_technical_mean; concept_license; concept_information; concept_project_documentation; concept_project_document;;
+
+concept_resources <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Оборудование, информация, люди, финансы, всё то что может понадобиться в процессе реализации некоторого проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (ресурсы)] (*<- lang_ru;;*);;
+                       *);;

@@ -1,0 +1,27 @@
+sc_node_not_relation ->concept_internal_experience;;
+concept_internal_experience
+=> nrel_main_idtf:
+					[внутренний опыт]
+						(* <- lang_ru;; *);;
+concept_internal_experience => nrel_main_idtf:
+		
+		[internal experience]
+			(* <- lang_en;; *);;
+
+concept_internal_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(внутренний опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Внутренний опыт – это осознание 
+		каких-то состояний или влияний в 
+		период «Здесь и сейчас».] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+concept_internal_experience => nrel_subdividing:
+		concept_emotional_experience;
+        concept_mental_experience;
+		concept_religious_experience;;
+	

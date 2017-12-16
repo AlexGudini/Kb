@@ -1,0 +1,60 @@
+concept_organization
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [организованность] (*<-lang_ru;;*);
+		  [organization] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Организованность – определение личных приоритетов и целей, соответствующих задачам компании.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (организованность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Разумное распределение рабочего времени.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (организованность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Продуктивная работа с документами и эффективное решение административных вопросов.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (организованность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Оптимальная обработка информации, выделение важных моментов без излишней детализации.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (организованность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Способность работать с большой нагрузкой.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (организованность)] (*<- lang_ru;;*);;
+			*);;

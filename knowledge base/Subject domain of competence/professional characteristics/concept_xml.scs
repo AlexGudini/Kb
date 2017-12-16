@@ -1,0 +1,43 @@
+sc_node_not_relation -> concept_xml;;
+
+concept_xml => nrel_main_idtf:
+					                   //  [линукс](*<-lang_ru;;*);
+                              [xml](*<-lang_ru;;*);
+					                     [xml](*<-lang_en;;*);;
+
+
+concept_xml <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [XML — расширяемый язык разметки.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (xml)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_xml <-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [XML разрабатывался как язык с простым формальным синтаксисом, удобный для создания и 
+        обработки документов программами и одновременно удобный для чтения и создания документов человеком, с подчёркиванием
+         нацеленности на использование в Интернете. ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(xml, документ, интернет)] (* <- lang_ru;; *);;
+
+  *);;  
+
+  concept_xml <-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Язык называется расширяемым, поскольку он не фиксирует разметку, используемую в документах: 
+        разработчик волен создать разметку в соответствии с потребностями к конкретной области, будучи ограниченным лишь
+         синтаксическими правилами языка.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(документ, разработчик, правило)] (* <- lang_ru;; *);;
+
+  *);; 

@@ -1,0 +1,16 @@
+concept_moral_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [нравственная компетенция] (*<-lang_ru;;*);
+		  [moral competence] (*<-lang_en;;*);
+
+<-rrel_key_sc_element: ...
+			(*
+			 <- sc_explanation;;
+
+			<= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Нравственная компетенция - это готовность, способность и потребность жить по общечеловеческим нравственным законам.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (нравственная компетенция)] (*<- lang_ru;;*);;
+                       *);;

@@ -1,0 +1,26 @@
+
+
+sc_node_not_relation ->concept_method_of_repertory_grids;;
+concept_method_of_repertory_grids
+=> nrel_main_idtf:
+          [метод репертуарных сеток]
+            (* <- lang_ru;; *);;
+concept_method_of_repertory_grids => nrel_main_idtf:
+    
+    [method of repertory grids]
+      (* <- lang_en;; *);;
+
+concept_method_of_repertory_grids <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(метод репертуарных сеток)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Метод репертуарных сеток - один из способов исследования личности в 
+    когнитивной психологии, разработанный 
+    психологом Дж. Келли. ] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+

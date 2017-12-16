@@ -1,0 +1,8 @@
+dm_task_8
+	=> nrel_main_idtf:[Задача #8. Разработать условия перехода от одной задачи к другой](*<- lang_ru;;*);
+	=> nrel_executor: Semenov_Vladislav_Sergeevich;
+	<- project_task;
+	<- important_project_task;
+	<- innovation_project_task;
+	<- executable_project_task;
+	<- dm_decomposition_of_tasks;;

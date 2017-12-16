@@ -1,0 +1,38 @@
+rrel_bitbucket
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[bitbucket'](*<-lang_en;;*);
+[битбакет'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-means_of_communication;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [bitbucket' - это ролевое отношение, связывающее знак исполнителя задания и знак его аккаунта на bitbucket.](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [Имя учётной записи (логина), по которому можно найти и связаться с исполнителем, который является пользователем хостинга bitbucket.](* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+
+

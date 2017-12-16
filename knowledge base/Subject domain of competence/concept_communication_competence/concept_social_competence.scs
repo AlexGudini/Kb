@@ -1,0 +1,27 @@
+concept_social_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [социальная компетенция] (*<-lang_ru;;*);
+		  [social competence] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Социальная компетенция проявляется в желании и умении вступать в коммуникацию с другими людьми.] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (социальная компетенция)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Социальная компетенция проявляется в способности ориентироваться в ситуации общения и строить высказывание в соответствии с коммуникативным намерением говорящего и ситуацией.] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (социальная компетенция)] (*<- lang_ru;;*);;
+			*);;

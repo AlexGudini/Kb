@@ -1,0 +1,22 @@
+nrel_academic_title
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[ученое звание*](*<-lang_ru;;*);
+[academic title*](*<-lang_en;;*);
+
+=>nrel_first_domain:person;
+=>nrel_second_domain:academic_title;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->person;; ->academic_title;;*) ;; *);
+
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ученое звание* - это бинарное ориентированное отношение, которое связывает знак персоны со знаком ее ученого звания.](* <-lang_ru;; *);; 
+		*);;
+	*);;

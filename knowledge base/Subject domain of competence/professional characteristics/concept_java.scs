@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_java;;
+
+concept_java => nrel_main_idtf:
+					                     [java](*<-lang_ru;;*);
+					                     [java](*<-lang_en;;*);;
+
+
+concept_java <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Java — строго типизированный объектно-ориентированный язык программирования, 
+                          разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (java)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_java <-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной
+         архитектуре, с помощью виртуальной Java-машины. ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(java, байт-код, виртуальная Java-машина) ] (* <- lang_ru;; *);;
+
+  *);;  

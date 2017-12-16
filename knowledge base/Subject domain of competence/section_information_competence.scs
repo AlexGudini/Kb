@@ -1,0 +1,36 @@
+
+
+section_concept_information_competence
+	=>nrel_main_idtf:[Раздел информационных компетенций](*<-lang_ru;;*);
+			 [Section information competence](*<-lang_en;;*);;
+
+	section_concept_information_competence
+	->rrel_key_sc_element_of_subject_domain:
+		concept_information_competence;
+		concept_research_competence;
+		concept_cognitive_competent;
+		concept_competent;
+		concept_environmental_competence;
+		concept_household_competent;
+		concept_personal_competent;
+		concept_social_and_political_competence;
+		concept_social_labor_competent;
+		concept_society_competent;
+		concept_valeological_competence;
+		concept_value_semantic_competence;
+		concept_emotional_experience;
+		concept_experience;
+		concept_external_experience;
+		concept_internal_experience;
+		concept_mental_experience;
+		concept_physical_experience;
+		concept_religious_experience;
+		concept_social_experience;
+		concept_custom;
+		concept_intelligence;
+		concept_language;
+		concept_tradition;
+		concept_worth;
+		nrel_social_role;;
+	
+	

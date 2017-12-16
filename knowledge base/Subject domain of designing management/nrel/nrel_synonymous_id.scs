@@ -1,0 +1,23 @@
+nrel_synonymous_id
+<-sc_dode_norole_relation;
+
+=>nrel_main_idtf:
+[синонимичный идентификатор*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:executor;
+=>nrel_second_domain:individual;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->executor;; ->individual;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [синонимичный идентификатор* – это бинарное ориентированное отношение, каждая связка которого связывает знак конкретного исполнителя со знаком его ФИО](* <-lang_ru;; *);; 
+		*);;
+	*);;

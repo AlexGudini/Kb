@@ -1,0 +1,19 @@
+section_concept_science
+	=>nrel_main_idtf:[Раздел науки](*<-lang_ru;;*);
+			 [Section science](*<-lang_en;;*);;
+
+	section_concept_science
+	->rrel_key_sc_element_of_subject_domain:
+		academic_degree;
+		academic_title;
+		doctor_of_sciences;
+		doctor_of_technical_sciences;
+		nrel_academic_degree;
+		nrel_academic_title;
+		nrel_deadlines;
+		professor;;
+	
+
+
+
+

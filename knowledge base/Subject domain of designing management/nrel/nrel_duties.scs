@@ -1,0 +1,24 @@
+nrel_duties
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[обязанности*](*<-lang_ru;;*);
+[duties*](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:person;
+=>nrel_second_domain:action;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->person;; ->action;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [обязанности* - перечень действий, обязательных для выполнения и возложенных на субъект.](* <-lang_ru;; *);; 
+		*);;
+	*);;

@@ -1,0 +1,20 @@
+rrel_country
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[страна'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [страна’ – это ролевое отношение, связывающее знак участника с его страной проживания](* <-lang_ru;; *);; 
+		*);;
+	*);;
+

@@ -1,0 +1,5 @@
+concept_work_with_discounts
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [работа со скидками] (*<-lang_ru;;*);
+		  [work with discounts] (*<-lang_en;;*);;

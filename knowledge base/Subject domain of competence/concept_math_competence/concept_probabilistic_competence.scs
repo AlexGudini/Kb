@@ -1,0 +1,37 @@
+concept_probabilistic_competence <- sc_node_not_relation;;
+
+concept_probabilistic_competence => nrel_main_idtf: [вероятностная компетенция](*<-lang_ru;;*);
+				      [probabilistic competence](*<-lang_en;;*);;
+
+concept_probabilistic_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Совокупность вероятностных понятий и представлений, необходимых при построении моделей реальных процессов и явлений.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (вероятностная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_probabilistic_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Знание основных приемов обработки яксперементальных данных.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (вероятностная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+sc_text_of_agent_of_deleting_person_from_team
+-> rrel_key_sc_element:
+	agent_of_deleting_person_from_team;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_deleting_person_from_team = [*^"file://agent_of_deleting_person_from_team.scsi"*];;

@@ -1,0 +1,25 @@
+
+
+section_concept_manage_competence
+	=>nrel_main_idtf:[Раздел управленческих компетенций](*<-lang_ru;;*);
+			 [Section manage competence](*<-lang_en;;*);;
+
+	section_concept_manage_competence
+	->rrel_key_sc_element_of_subject_domain:
+		concept_communication;
+		concept_communication_skills;
+		concept_conflict_management;
+		concept_delegation_of_authority;
+		concept_development_of_subordinates;
+		concept_external_contacts;
+		concept_innovation;
+		concept_manage_competence;
+		concept_organization;
+		concept_professionalism;
+		concept_resource_allocation;
+		concept_intellectual_level;;
+	
+
+
+
+

@@ -1,0 +1,30 @@
+concept_geometric_competence <- sc_node_not_relation;;
+
+concept_geometric_competence => nrel_main_idtf: [геометрическая компетенция](*<-lang_ru;;*);
+				      [geometric competence](*<-lang_en;;*);;
+
+concept_geometric_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Знание пространственных форм](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (геометрическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_geometric_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Умение находить основные соотношения между их числовыми характеристиками.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (геометрическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+
+
+

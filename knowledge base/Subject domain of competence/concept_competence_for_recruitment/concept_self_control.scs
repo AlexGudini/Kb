@@ -1,0 +1,27 @@
+concept_self_control
+<-sc_node_not_relation;
+
+=> nrel_main_idtf: [самоконтроль] (*<-lang_ru;;*);
+		   [self-control] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Коррелирует с тайм-менеджментом] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (самоконтроль)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Под самоконтролем понимается управление временем так, чтобы совместить исполнение задачи стого с отведенными рамками, а также верность взятым обещаниям и обязательствам.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (самоконтроль)] (*<- lang_ru;;*);;
+			*);;

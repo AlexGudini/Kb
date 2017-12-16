@@ -1,0 +1,33 @@
+programming_language
+<-sc_node_not_relation; 
+
+=>nrel_main_idtf:
+[язык программирования](*<-lang_ru;;*);
+[programming language*](*<-lang_en;;*);
+
+<=nrel_inclusion:technology;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [язык программирования — формальная знаковая система, предназначенная для записи компьютерных программ. ](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [язык программирования определяет набор лексических, синтаксических и семантических правил, определяющих внешний вид программы и действия, которые выполнит исполнитель под её управлением.](* <-lang_ru;; *);; 
+		*);;
+	*);;
+

@@ -1,0 +1,23 @@
+sc_node_not_relation ->concept_worth;;
+concept_worth
+=> nrel_main_idtf:
+					[ценность]
+						(* <- lang_ru;; *);;
+concept_worth => nrel_main_idtf:
+		
+		[worth]
+			(* <- lang_en;; *);;
+
+concept_worth <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(ценность)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Це́нность — важность, значимость,
+		 польза, полезность чего-либо.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

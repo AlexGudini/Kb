@@ -1,0 +1,8 @@
+dm_task_7
+	=> nrel_main_idtf:[Задача #7. Алгоритм создания/модификации задачи](*<- lang_ru;;*);
+	=> nrel_executor: Semenov_Vladislav_Sergeevich;
+	<- project_task;
+	<- blocking_project_task;
+	<- innovation_project_task;
+	<- executable_project_task;
+	<- dm_decomposition_of_tasks;;

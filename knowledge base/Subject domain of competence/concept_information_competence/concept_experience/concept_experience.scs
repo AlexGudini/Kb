@@ -1,0 +1,39 @@
+sc_node_not_relation ->concept_experience;;
+concept_experience
+=> nrel_main_idtf:
+					[опыт]
+						(* <- lang_ru;; *);;
+concept_experience => nrel_main_idtf:
+		
+		[experience]
+			(* <- lang_en;; *);;
+
+concept_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Опыт - совокупность практически усвоенных знаний, уменья, навыков] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_experience => nrel_subdividing:
+	      concept_external_experience;
+	      concept_internal_experience;;
+	
+
+
+concept_experience<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...(*
+		->[Как правило, под обучением на основе собственного 
+		опыта имеют в виду обучение через негативный опыт: 
+		опыт ошибок, полученных неприятностей или 
+		пережитых страданий. ](*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

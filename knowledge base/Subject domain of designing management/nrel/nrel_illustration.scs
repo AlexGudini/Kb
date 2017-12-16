@@ -1,0 +1,4 @@
+sc_node_norole_relation -> nrel_illustration;;
+
+nrel_illustration => nrel_main_idtf: [иллюстрация*] (*<- lang_ru;;*);
+                                     [illustration*] (*<- lang_en;;*);;

@@ -1,0 +1,46 @@
+sc_node_not_relation -> initiation;;
+
+initiation => nrel_main_idtf: [инициация] (*<- lang_ru;;*);
+                              [initiation] (*<- lang_en;;*);
+
+		   => nrel_next_project_phase: planning;;
+
+initiation <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Стадия проекта, на которой выполняется определенный набор работ для его успешного запуска.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (инициация)] (*<- lang_ru;;*);;
+                       *);
+
+		    => nrel_project_phase_task: ... 
+       		       (*
+			 -> ...
+			    (*
+			      <- concept_initiation_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Оценка предъявляемых требований к проекту.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_initiation_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Определение целей и задач, основных концепций проекта.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_initiation_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Определение ресурсов, необходимых для реализации проекта.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+			 *);;

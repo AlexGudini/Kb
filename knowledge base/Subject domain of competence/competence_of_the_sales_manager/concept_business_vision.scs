@@ -1,0 +1,24 @@
+
+
+sc_node_not_relation ->concept_business_vision;;
+concept_business_vision
+=> nrel_main_idtf:
+					[бизнес видение]
+						(* <- lang_ru;; *);;
+concept_business_vision => nrel_main_idtf:
+	
+		[business vision]
+			(* <- lang_en;; *);;
+
+concept_business_vision <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(бизнес видение)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Описание идеального состояния компании в
+		 будущем, ориентир движения компании.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+

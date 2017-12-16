@@ -1,0 +1,16 @@
+concept_desire_to_grow
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [желание расти и развиваться] (*<-lang_ru;;*);
+		  [desite to grow and develop] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Желание расти и развиваться - это компетенция, показывающая хочет ли человек продолжать карьеру, покоряя новые вершины.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (желание расти и развиваться)] (*<- lang_ru;;*);;
+			*);;

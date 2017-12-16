@@ -1,0 +1,28 @@
+concept_professional_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [профессиональная компетенция] (*<-lang_ru;;*);
+		  [professional competence] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Профессиональная компетенция - это компетенция, приобретаемая в ходе обучения.] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (профессиональная компетенция)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Профессиональная компетенциячения обеспечивает способность к успешной профессиональной деятельности.] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (профессиональная компетенция)] (*<- lang_ru;;*);;
+			*);;
+

@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_verification;;
+
+concept_verification => nrel_main_idtf: [верификация] (*<- lang_ru;;*);
+                                        [verification] (*<- lang_en;;*);;
+
+
+concept_verification <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(верификация)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Верификация – это процедура подтверждения личности 
+		пользователя, рекомендованная как для фрилансеров, 
+		так и для работодателей.] (*<-lang_ru;;*);;
+	*);;
+*);;

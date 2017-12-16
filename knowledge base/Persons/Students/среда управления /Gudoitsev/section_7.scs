@@ -1,0 +1,20 @@
+section_competence_subject_area
+=> nrel_main_idtf:
+	[Раздел. Предметная область компетенций]
+	(* <- lang_ru;; *);
+	[Section. Competence subject area]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий системы принятия решений]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;;
+
+section_competence_subject_area = [*^"file://section_71.scsi"*];;
+
+
+section_competence_subject_area
+->rrel_key_sc_element:
+concept_competence_library;
+concept_competence_model;;
+

@@ -1,0 +1,8 @@
+section_kb_of_design_management_ostis_systems_environment
+	=> nrel_main_idtf:[Раздел. БЗ среды управления проектированием ostis-систем](* <-lang_ru;; *);
+	=> nrel_main_idtf:[Section. Design management environment ostis-systems KB](* <-lang_en;; *);
+	<= nrel_section_decomposition:{
+					section_subject_domain_of_desingning_management;
+					section_subject_domain_of_computers;
+					section_subject_domain_competence
+					};;

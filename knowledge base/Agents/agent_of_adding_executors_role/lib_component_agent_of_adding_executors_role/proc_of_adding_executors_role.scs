@@ -1,0 +1,150 @@
+scp_program -> proc_of_adding_executors_role (*
+  -> rrel_params: ... (*
+    //Place your params here
+    //-> rrel_1: rrel_scp_var: rrel_fixed: rrel_in: _parameter;;
+ -> rrel_1: rrel_in: _project;;
+-> rrel_2: rrel_in: _person;;
+-> rrel_3: rrel_in: _role;;
+-> rrel_4: rrel_out: _answer;;
+  *);;
+
+ -> rrel_operators: ... (*
+    //Place your operators here
+    -> rrel_init: ..proc_of_adding_executors_role_operator0 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [Агент начал работу];;
+      => nrel_goto: ..proc_of_adding_executors_role_operator1;;
+    *);;
+
+   ->..proc_of_adding_executors_role_operator1 (*
+                <- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: student_project;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _project;;
+		=> nrel_then: ..proc_of_adding_executors_role_operator1a;;
+		=> nrel_else: ..proc_of_adding_executors_role_operator1b;;
+    *);;
+
+    ->..proc_of_adding_executors_role_operator1a (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [elstr3];;
+      => nrel_goto: ..proc_of_adding_executors_role_operator2;;
+    *);;
+
+->..proc_of_adding_executors_role_operator1b (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [error];;
+      => nrel_goto: ..proc_of_adding_executors_role_return;;
+    *);;
+
+
+ ->..proc_of_adding_executors_role_operator2 (*
+<- searchElStr5;;
+               -> rrel_1: rrel_fixed: rrel_scp_var: _project;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc2;;
+      -> rrel_3: rrel_assign: rrel_scp_var: _team;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc3;;
+      -> rrel_5: rrel_fixed: rrel_scp_const: nrel_executor;;
+   => nrel_then: ..proc_of_adding_executors_role_operator2a;;
+		=> nrel_else: ..proc_of_adding_executors_role_operator2b;;
+    *);;
+
+ ->..proc_of_adding_executors_role_operator2a (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [finded elstr5];;
+      => nrel_goto: ..proc_of_adding_executors_role_operator3;;
+    *);;
+
+->..proc_of_adding_executors_role_operator2b (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [error];;
+      => nrel_goto: ..proc_of_adding_executors_role_return;;
+    *);;
+
+ ->..proc_of_adding_executors_role_operator3 (*
+<- searchElStr5;;
+               -> rrel_1: rrel_fixed: rrel_scp_var: _team;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc4;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc5;;
+      -> rrel_5: rrel_fixed: rrel_scp_var: _role;;
+      => nrel_then: ..proc_of_adding_executors_role_operator_3a;;
+		=> nrel_else: ..proc_of_adding_executors_role_operator3b;;
+    *);;
+
+->..proc_of_adding_executors_role_operator3a (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [already exists];;
+      => nrel_goto: ..proc_of_adding_executors_role_return;;
+    *);;
+
+->..proc_of_adding_executors_role_operator3b (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [finded elstr5];;
+      => nrel_goto: ..proc_of_adding_executors_role_operator4;;
+    *);;
+
+ ->..proc_of_adding_executors_role_operator4 (*
+<- genElStr5;;
+               -> rrel_1: rrel_fixed: rrel_scp_var: _team;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc6;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc7;;
+      -> rrel_5: rrel_fixed: rrel_scp_var: _role;;
+      => nrel_goto: ..proc_of_adding_executors_role_operator5;;
+		
+    *);;
+
+ ->..proc_of_adding_executors_role_operator5 (*
+      <- genElStr3;;
+      -> rrel_1: rrel_assign: rrel_scp_var: _answer;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc8;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _team;;
+      => nrel_goto: ..proc_of_adding_executors_role_operator6;;	
+    *);;
+
+ ->..proc_of_adding_executors_role_operator6 (*
+      <- genElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc9;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _arc6;;
+      => nrel_goto: ..proc_of_adding_executors_role_operator7;;	
+    *);;
+
+->..proc_of_adding_executors_role_operator7 (*
+      <- genElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc10;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+      => nrel_goto: ..proc_of_adding_executors_role_operator8;;	
+    *);;
+
+->..proc_of_adding_executors_role_operator8 (*
+      <- genElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc11;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _arc7;;
+      => nrel_goto: ..proc_of_adding_executors_role_operator9;;	
+    *);;
+
+->..proc_of_adding_executors_role_operator9 (*
+      <- genElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc12;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _role;;
+      => nrel_goto: ..proc_of_adding_executors_role_operator10;;	
+    *);;
+
+
+
+->..proc_of_adding_executors_role_operator10 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [added];;
+      => nrel_goto: ..proc_of_adding_executors_role_return;;
+    *);;
+
+    -> ..proc_of_adding_executors_role_return (*
+      <- return;;
+    *);;
+  *);;
+*);;

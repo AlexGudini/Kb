@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_net_framework;;
+
+concept_net_framework => nrel_main_idtf:
+					                     [.Net Framework](*<-lang_ru;;*);
+					                     [.Net Framework](*<-lang_en;;*);;
+
+
+concept_net_framework <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Платформа .NET Framework — это технология, выпущенная компанией Microsoft в 2002 году, которая поддерживает создание и выполнение 
+                          нового поколения приложений и веб-служб XML. ] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (.NET Framework)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_net_framework <-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Считается, что платформа .NET Framework явилась ответом компании Microsoft
+         на набравшую к тому времени большую популярность платформу Java компании Sun Microsystems . ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(.NET Framework, Microsoft, Java)] (* <- lang_ru;; *);;
+
+  *);;  

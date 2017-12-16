@@ -1,0 +1,46 @@
+sc_node_not_relation -> planning;;
+
+planning => nrel_main_idtf: [планирование] (*<- lang_ru;;*);
+                                    [planning] (*<- lang_en;;*);
+
+		 => nrel_next_project_phase: developing;;
+
+planning <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Стадия проекта, на которой определяется наилучший способ действий для достижения поставленных целей проекта с учетом складывающейся обстановки.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (планирование)] (*<- lang_ru;;*);;
+                       *);
+
+		    => nrel_project_phase_task: ... 
+       		       (*
+			 -> ...
+			    (*
+			      <- concept_planning_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Создание плана проекта.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_planning_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Определение методологий, на основании которых будет разрабатываться проект.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_planning_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Построение модели будущего проекта.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+			 *);;

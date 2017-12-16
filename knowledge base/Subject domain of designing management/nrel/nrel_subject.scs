@@ -1,0 +1,22 @@
+nrel_subject
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[субъект*](*<-lang_ru;;*);
+
+=>nrel_first_domain:activity;
+=>nrel_second_domain:person;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->activity;; ->person;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [субъект* - бинарное ориентированное отношение, каждая связка которого связывает знак персоны со знаком какого-либо действия или деятельности.](* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+

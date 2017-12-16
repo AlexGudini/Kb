@@ -1,0 +1,20 @@
+
+section_concept_corporate_competence
+	=>nrel_main_idtf:[Раздел корпоративных компетенций](*<-lang_ru;;*);
+			 [Section corporate competence](*<-lang_en;;*);;
+
+	section_concept_corporate_competence
+	->rrel_key_sc_element_of_subject_domain:
+		concept_cooperation;
+		concept_corporate_competence;
+		concept_customer_focus;
+		concept_learning_new_skills;
+		concept_result_focus;
+		concept_working_with_team_of_experts;
+		concept_behavioral_competence;
+		concept_competence_on_the_type_of_object_and_subject;
+		concept_functional_competence;
+		concept_organizational_competence;
+		concept_principal_competence;
+		concept_professional_development;;
+	

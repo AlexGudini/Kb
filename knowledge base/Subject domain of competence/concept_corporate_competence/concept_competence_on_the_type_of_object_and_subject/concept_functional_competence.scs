@@ -1,0 +1,37 @@
+concept_functional_competence <- sc_node_not_relation;;
+
+concept_functional_competence => nrel_main_idtf: [функциональная компетенция] (*<-lang_ru;;*);
+						     [functional competence] (*<-lang_en;;*);;
+
+concept_functional_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Компетенции, исключительно специфичны в привязке к конкретной работе.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (функциональная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_functional_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Предпосылают высокое качество исполнения уникальной задачи.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (функциональная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_functional_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Функциональной является компетенция «содержания база данных»] (*<- lang_ru;;*);; 
+                         *);;
+			*);;
+

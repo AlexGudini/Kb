@@ -1,0 +1,49 @@
+nrel_personal_qualifications=>nrel_idtf:
+[квалификации человека*](*<-lang_ru;;*);;
+nrel_personal_qualifications=>nrel_main_idtf:
+[персональные квалификации*](*<-lang_ru;;*);;
+nrel_personal_qualifications=>nrel_idtf:
+[personal qualifications*](*<-lang_en;;*);;
+
+nrel_personal_qualifications=>nrel_first_domain:person;;
+nrel_personal_qualifications=>nrel_second_domain:concept_qualification;;
+nrel_personal_qualifications=>nrel_definitional_domain: ...
+	(*
+		<=nrel_union:...
+			(*
+				->person;;
+				->concept_qualification;;
+			*);;
+	*);;
+
+nrel_personal_qualifications=>nrel_arity_of_relations: 2
+	(*
+		<-number;;
+	*);;
+
+relation=>nrel_inclusion:binary_relation;;
+relation=>nrel_inclusion:oriented_relation;;
+binary_relation=>nrel_inclusion:antisymmetric_relation;;
+binary_relation=>nrel_inclusion:antitransitive_relation;;
+binary_relation=>nrel_inclusion:antireflexive_relation;;
+oriented_relation->nrel_personal_qualifications;;
+antisymmetric_relation->nrel_personal_qualifications;;
+antitransitive_relation->nrel_personal_qualifications;;
+antireflexive_relation->nrel_personal_qualifications;;
+
+nrel_personal_qualifications<-rrel_key_sc_element: ...
+	(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->[Персональные квалификации – это метапрофессиональные качества личности (самостоятельность, ответственность, надежность, самоконтроль,
+					коммуникативность и др.](*<-lang_ru;;*);;
+			*);;
+		<=nrel_using_constants: ...
+			(*
+				->concept_test;;
+				->nrel_mark;;
+			*);;
+		=>nrel_main_idtf:[Опр.(персональные квалификации*)](*<-lang_ru;;*);;
+
+	*);;

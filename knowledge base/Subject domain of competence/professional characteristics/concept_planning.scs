@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_planning;;
+
+concept_planning => nrel_main_idtf:
+					[планирование](*<-lang_ru;;*);
+					[planning](*<-lang_en;;*);;
+
+concept_planning <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Планирование — оптимальное распределение ресурсов для достижения поставленных целей, 
+                          деятельность (совокупность процессов), связанная с постановкой целей (задач) и действий в будущем.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (планирование)] (*<- lang_ru;;*);;
+                       *);;

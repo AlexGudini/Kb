@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_experience_of_work;;
+
+concept_experience_of_work => nrel_main_idtf:
+					                     [опыт работы](*<-lang_ru;;*);
+					                     [experience of work](*<-lang_en;;*);;
+
+concept_experience_of_work <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Опыт работы - совокупность практически усвоенных знаний, навыков, умений в данной профессиональной деятельности.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (опыт работы)] (*<- lang_ru;;*);;
+                       *);;

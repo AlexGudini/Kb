@@ -1,0 +1,30 @@
+rrel_kb_developer
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[разработчик базы знаний'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [разработчик базы знаний’ – это ролевое отношение, обозначающее физическое лицо, отвечающее за качество и результат наполнения базы знаний определённого проекта](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Разработчик базы знаний является ответственным лицом за выполнение проектной задачи касательно наполнения базы знаний](* <-lang_ru;; *);; 
+		*);;
+	*);;

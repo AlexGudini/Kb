@@ -1,0 +1,4 @@
+sc_node_not_relation -> concept_equipment;;
+
+concept_equipment => nrel_main_idtf: [оборудование] (*<- lang_ru;;*);
+                                     [equipment] (*<- lang_en;;*);;

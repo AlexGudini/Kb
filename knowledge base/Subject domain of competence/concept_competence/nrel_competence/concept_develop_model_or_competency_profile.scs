@@ -1,0 +1,35 @@
+
+sc_node_not_relation -> concept_develop_model_or_competency_profile;;
+
+concept_develop_model_or_competency_profile
+=> nrel_main_idtf: 
+		[разработка модели или профиля компетенций](* <- lang_ru;; *);;
+
+concept_develop_model_or_competency_profile
+=> nrel_main_idtf:
+		[develop model or competency profile](* <- lang_en;; *);;
+
+concept_develop_model_or_competency_profile<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	=>nrel_idtf:[Опр.(Разработка модели или профиля компетенций)](*<-lang_ru;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->[разработка модели или профиля компетенций - 
+		пути разработки модели или профиля компетенций](* <- lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_develop_model_or_competency_profile => nrel_subdividing:
+	      concept_interviews_obtain_behavioral_examples;
+       		concept_working_with_team_of_experts;
+        	concept_competence_library;
+			concept_method_of_repertory_grids;
+			concept_analysis_of_workload;
+			concept_direct_observation;;
+	
+
+
+

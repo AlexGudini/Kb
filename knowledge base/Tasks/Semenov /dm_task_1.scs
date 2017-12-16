@@ -1,0 +1,8 @@
+dm_task_1
+	=> nrel_main_idtf:[Задача #1. Разработать структуру Пр.Обл. Среда управления проектированием ostis-систем](*<- lang_ru;;*);
+	=> nrel_executor: Semenov_Vladislav_Sergeevich;
+	<- project_task;
+	<- blocking_project_task;
+	<- innovation_project_task;
+	<- completed_project_task;
+	<- dm_decomposition_of_tasks;;

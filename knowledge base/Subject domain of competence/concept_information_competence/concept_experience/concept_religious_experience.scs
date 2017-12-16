@@ -1,0 +1,26 @@
+
+sc_node_not_relation ->concept_religious_experience;;
+concept_religious_experience
+=> nrel_main_idtf:
+					[религиозный опыт]
+						(* <- lang_ru;; *);;
+concept_religious_experience 
+=> nrel_main_idtf:
+		            [religious experience]
+			            (* <- lang_en;; *);;
+
+concept_religious_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(религиозный опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[ субъективный жизненный опыт встреч с высшей 
+		реальностью, чувство присутствия безграничной 
+		тайны в жизни человека, ощущение зависимости от
+		божественной силы или от невидимого порядка вещей, 
+		чувство вины и страха перед божьим судом или внутреннее 
+		умиротворение в надежде на божественное всепрощение] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+

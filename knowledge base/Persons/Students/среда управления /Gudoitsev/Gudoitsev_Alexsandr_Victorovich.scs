@@ -1,0 +1,19 @@
+
+Gudoitsev_Alexsandr_Victorovich
+<-sc_node_not_relation;
+=>nrel_main_idtf:[Гудойцев Александр Викторович](*<-lang_ru;;*);
+
+=>nrel_contact_details:{
+rrel_mobile_phone:[+375299213451](*<-lang_ru;;*);
+rrel_skype:[enavals1998_1](*<-lang_en;;*);
+rrel_email:[enavals1998@mail.ru](*<-lang_en;;*);
+rrel_bitbucket:[Gudini7](*<-lang_en;;*)
+};
+
+=>nrel_technology:{
+[C#](*<-lang_en;technology;;*);
+[OOP](*<-lang_en;technology;;*)
+};
+
+<-person;;
+

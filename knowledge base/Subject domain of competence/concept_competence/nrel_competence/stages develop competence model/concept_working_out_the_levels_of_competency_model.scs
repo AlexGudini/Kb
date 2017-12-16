@@ -1,0 +1,29 @@
+
+
+
+
+sc_node_not_relation ->concept_working_out_the_levels_of_competency_model;;
+concept_working_out_the_levels_of_competency_model
+=> nrel_main_idtf:
+          [концепция разработки уровней модели компетенций]
+            (* <- lang_ru;; *);;
+concept_working_out_the_levels_of_competency_model => nrel_main_idtf:
+    
+    [working out the levels of competency model]
+      (* <- lang_en;; *);;
+
+concept_working_out_the_levels_of_competency_model <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(концепция разработки уровней модели компетенций)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Концепция разработки уровней модели компетенций - метод по которому
+    происходит формирование модели компетенций] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+
+
+

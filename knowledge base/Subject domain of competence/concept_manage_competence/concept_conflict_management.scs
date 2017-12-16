@@ -1,0 +1,27 @@
+concept_conflict_management
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [управление конфликтами] (*<-lang_ru;;*);
+		  [conflict management] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Управление конфликтами - умение разобраться во множестве точек зрения, осуществлять контроль за стрессовыми и кризисными ситуациями.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (управление конфликтами)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Умение разрешать конфликты и разногласия.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (управление конфликтами)] (*<- lang_ru;;*);;
+			*);;

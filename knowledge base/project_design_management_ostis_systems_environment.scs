@@ -1,0 +1,19 @@
+project_design_management_ostis_systems_environment
+	=> nrel_main_idtf:[Проект Среда управления проектированием ostis-систем](* <-lang_ru;; *);
+	=> nrel_main_idtf:[Project design management environment ostis-systems](* <-lang_en;; *);
+
+	<- concept_student_project;
+	<= nrel_subproject: project_IMS;
+	<- ui_start_sc_element;
+	<- rrel_key_sc_element:structure_and_organization_IMS_project;
+
+	<= nrel_section_decomposition:{
+									documentation_of_project_design_management_ostis_systems_environment;
+									history_and_current_processes_operating_of_project_design_management_ostis_systems_environment;
+									section_of_the_project_design_management_ostis_systems_environment;
+									section_kb_of_design_management_ostis_systems_environment;
+									section_ui_of_design_management_ostis_systems_environment;
+									section_kpm_of_design_management_ostis_systems_environment
+									};
+	=> nrel_executor: project_design_management_ostis_systems_environment_team;
+	=> nrel_task: project_design_management_ostis_systems_environment_tasks;;

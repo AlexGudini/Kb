@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_member;;
+
+concept_member => nrel_main_idtf: [участник] (*<- lang_ru;;*);
+                                  [member] (*<- lang_en;;*);;
+
+concept_member <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Участник - тот, кто участвует в чём-либо, то есть занимается чем-либо совместно с другими.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (участник)] (*<- lang_ru;;*);;
+			*);;
+
+concept_member <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Происходит от глагола участвовать] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (участник)] (*<- lang_ru;;*);;
+			*);;

@@ -1,0 +1,19 @@
+doctor_of_technical_sciences
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[доктор технических наук](*<-lang_ru;;*);
+[doctor of technical sciences](*<-lang_en;;*);
+
+<=nrel_inclusion:doctor_of_sciences;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [доктор технических наук - учёная степень второй, высшей ступени ](* <-lang_ru;; *);; 
+		*);;
+	*);;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_technical_task;;
+
+concept_technical_task => nrel_main_idtf: [техническое задание] (*<- lang_ru;;*);
+                                          [technical task] (*<- lang_en;;*);
+
+		       => nrel_idtf: [ТЗ] (*<- lang_ru;;*);
+		       => nrel_idtf: [техзадание] (*<- lang_ru;;*);;
+
+concept_technical_task <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Техническое задание – исходный документ для разработки информационных систем либо проведения научно-исследовательских работ (НИР).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (техническое задание)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_technical_task <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Техническое задание – исходный документ определяющий порядок и условия проведения работ по проекту, содержащий цель, задачи, принципы выполнерия, ожидаемые результаты и сроки выполнения работ.)] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (техническое задание)] (*<- lang_ru;;*);;
+                       *);;

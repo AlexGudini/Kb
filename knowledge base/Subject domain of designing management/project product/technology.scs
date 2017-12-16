@@ -1,0 +1,18 @@
+technology
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[технология](*<-lang_ru;;*);
+[technology](*<-lang_en;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [технология - совокупность методов и средств, используемых в процессе разработки программного обеспечения](* <-lang_ru;; *);; 
+		*);;
+	*);;

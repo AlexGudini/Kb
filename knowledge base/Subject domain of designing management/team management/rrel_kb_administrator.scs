@@ -1,0 +1,19 @@
+rrel_kb_administrator
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[администратор БЗ'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [администратор БЗ’ – это ролевое отношение, обозначающее физическое лицо, отвечающее за выработку требований к базе данных, её проектирование, реализацию, эффективное использование и сопровождение, включая управление учётными записями пользователей и защиту от несанкционированного доступа](* <-lang_ru;; *);; 
+		*);;
+	*);;

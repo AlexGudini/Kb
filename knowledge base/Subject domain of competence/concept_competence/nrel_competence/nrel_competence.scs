@@ -1,0 +1,41 @@
+nrel_competence <- sc_node_norole_relation;;
+
+nrel_competence => nrel_main_idtf:[компетенция*](*<-lang_ru;;*);
+				  [competence*](*<-lang_en;;*);;
+
+nrel_competence => nrel_first_domain: person;;
+nrel_competence => nrel_second_domain: concept_mark;;
+
+nrel_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Компетенция (от лат. competere — соответствовать, подходить) — это личностная способность специалиста (сотрудника) решать определённый класс профессиональных задач.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (компетенция*)] (*<- lang_ru;;*);;
+			*);;
+
+nrel_competence <- rrel_key_sc_element: ...
+			(*
+			 <- sc_explanation;;
+
+			<= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Под компетенцией понимают формально описанные требования к личностным, профессиональным и т. п. качествам сотрудников компании (или к какой-то группе сотрудников).] (*<- lang_ru;;*);; 
+			*);;
+                        => nrel_main_idtf: [Утв. (компетенция*)] (*<- lang_ru;;*);;
+			*);;
+
+nrel_competence <-rrel_key_sc_element: ...
+			(*
+			 <- sc_explanation;;
+
+			<= nrel_sc_text_translation: ... 
+                        (*
+			  -> [Компетенции используются при оценке персонала.] (*<- lang_ru;;*);;
+                         *);;
+                        => nrel_main_idtf: [Утв. (компетенция*)] (*<- lang_ru;;*);;
+
+                       *);;

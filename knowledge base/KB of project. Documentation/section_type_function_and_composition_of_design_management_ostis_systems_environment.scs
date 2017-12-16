@@ -1,0 +1,13 @@
+section_type_function_and_composition_of_design_management_ostis_systems_environment
+=> nrel_main_idtf: [Раздел. Тип, назначение и состав среды управления проектированием ostis-систем] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://section_type_function_structure.pdf";;
+*);;
+*);;

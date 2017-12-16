@@ -1,0 +1,16 @@
+sc_node_norole_relation -> concept_introduction_task;;
+
+concept_introduction_task => nrel_main_idtf: [задача внедрения] (*<- lang_ru;;*);
+                                      	   [introduction task] (*<- lang_en;;*);
+
+			<- concept_project_task;
+
+			<- rrel_key_sc_element: ...
+                        (* 
+                          <- sc_text_definition;;
+ 		          <= nrel_sc_text_translation: ... 
+                          (*
+                            -> [Задача, решаемая на стадии внедрения проекта.] (*<- lang_ru;;*);; 
+                           *);;
+                          => nrel_main_idtf: [Опр. (задача внедрения)] (*<- lang_ru;;*);;
+                         *);;

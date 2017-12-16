@@ -1,0 +1,7 @@
+dm_task_16
+	=> nrel_main_idtf:[Задача #16. Фаза проекта](*<- lang_ru;;*);
+	<- project_task;
+	<- blocking_project_task;
+	<- project_task_error_fix;
+	<- executable_project_task;
+	<- dm_decomposition_of_tasks;;

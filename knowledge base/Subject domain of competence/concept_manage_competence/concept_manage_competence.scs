@@ -1,0 +1,28 @@
+concept_manage_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [менеджерская компетенция] (*<-lang_ru;;*);
+		  [manage competence] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Менеджерские компетенции — это компетенции, необходимые руководителям компании (всем или только определенного уровня).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (менеджерская компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_manage_competence => nrel_inclusion: concept_professionalism;
+					     concept_resource_allocation;
+					     concept_organization;
+				   	     concept_communication;
+					     concept_development_of_subordinates;
+					     concept_delegation_of_authority;
+					     concept_external_contacts;
+					     concept_communication_skills;
+					     concept_conflict_management;
+					     concept_innovation;
+					     concept_intellectual_level;;

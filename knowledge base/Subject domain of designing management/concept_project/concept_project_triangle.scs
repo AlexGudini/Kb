@@ -1,0 +1,33 @@
+sc_node_not_relation -> concept_project_triangle;;
+
+concept_project_triangle => nrel_main_idtf: [проектный треугольник] (*<- lang_ru;;*);
+                                            [project triangle] (*<- lang_en;;*);;
+
+concept_project_triangle <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Сбалансированность трёх составляющих проекта: продукт, график, ресурсы.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (проектный треугольник)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_project_triangle <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Графическое представление специфики управления проектами.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (проектный треугольник)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_project_triangle <- rrel_key_sc_element: ...
+                      (*
+                        <- sc_illustration;;
+                        <= nrel_sc_text_translation: ...
+                        (*
+                          -> rrel_example: "file://project_triangle.jpg";;
+                         *);;
+                       *);;

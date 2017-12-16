@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_portfolio;;
+
+concept_portfolio => nrel_main_idtf:
+					                     [портфолио](*<-lang_ru;;*);
+					                     [portfolio](*<-lang_en;;*);;
+
+concept_portfolio <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Портфолио — это оформленное нужным образом собрание фотографий, проектов, 
+                          заказов, выполненных специалистом, артистом, школьником.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (портфолио)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_portfolio<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Портфолио — своеобразный аналог резюме, с наглядными образцами 
+        работ и опыта, раскрывающий творческий потенциал человека.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(портфолио, резюме)] (* <- lang_ru;; *);;
+
+  *);;                           

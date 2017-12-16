@@ -1,0 +1,18 @@
+section_subject_domain_competence
+	=>nrel_main_idtf:[Раздел. Предметная область компетенций](*<-lang_ru;;*);
+			 [Section. Subject domain of competence](*<-lang_en;;*);
+	<=nrel_section_decomposition:
+	{
+		section_competence_of_sales_manager;
+		section_communicatioin_competence;
+		section_concept_competence;
+		section_concept_competence_for_recruitment;
+		section_concept_corporate_competence;
+		section_concept_information_competence;
+		section_concept_manage_competence;
+		section_concept_math_competence;
+		section_concept_science;
+		section_professional_characteristics
+	};;
+
+	

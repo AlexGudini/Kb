@@ -1,0 +1,8 @@
+section_of_the_project_design_management_ostis_systems_environment
+=> nrel_main_idtf: [Раздел. Проект Среда управления проектированием ostis-систем. История текущих запросов и план развития среды упрвления проектированием ostis-систем] (* <- lang_ru;; *);
+<= nrel_section_decomposition:
+{
+the_history_of_development_of_project_design_management_ostis_systems_environment;
+current_processes_of_development_of_project_design_management_ostis_systems_environment;
+development_plan_of_project_design_management_ostis_systems_environment
+};;

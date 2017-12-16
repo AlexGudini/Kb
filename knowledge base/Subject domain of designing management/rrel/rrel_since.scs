@@ -1,0 +1,21 @@
+rrel_since
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[с'](*<-lang_ru;;*);
+
+=>nrel_idtf:
+[начало'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [с' - атрибутивное отношение,используемое в связках отношения сроки выполнения* для указания даты начала проекта.](* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+

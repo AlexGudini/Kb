@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_project_document;;
+
+concept_project_document => nrel_main_idtf: [документ проекта] (*<- lang_ru;;*);
+                                            [project document] (*<- lang_en;;*);
+
+			 -> concept_technical_task;;
+
+concept_project_document <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Входные данные для процесса управления, описывающие содержание работ проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (документ проекта)] (*<- lang_ru;;*);;
+                       *);;

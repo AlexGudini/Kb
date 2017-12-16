@@ -1,0 +1,15 @@
+
+sc_node_not_relation -> concept_INM_installation;;
+concept_INM_installation => nrel_main_idtf: [ПНМ-установка] (*<- lang_ru;;*);
+                                          [INM installation] (*<- lang_en;;*);;
+
+concept_INM_installation <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(ПНМ-установка)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Изделие промышленного, научного и 
+		  медицинского назначения (] (*<-lang_ru;;*);;
+	*);;
+*);;
+

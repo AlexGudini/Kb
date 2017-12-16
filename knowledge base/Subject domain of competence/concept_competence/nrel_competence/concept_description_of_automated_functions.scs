@@ -1,0 +1,24 @@
+sc_node_not_relation ->concept_description_of_automated_functions;;
+concept_description_of_automated_functions
+=> nrel_main_idtf:
+					[описание автоматизируемых функций]
+						(* <- lang_ru;; *);;
+concept_description_of_automated_functions => nrel_main_idtf:
+		
+		[description of automated functions]
+			(* <- lang_en;; *);;
+
+concept_description_of_automated_functions <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(описание автоматизируемых функций)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Исходные данные, цели АС и автоматизированные
+		 функции, характеристика функциональной структуры,
+		 типовые решения (при наличии).] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

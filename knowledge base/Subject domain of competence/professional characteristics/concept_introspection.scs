@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_introspection;;
+
+concept_introspection => nrel_main_idtf:
+					[самоанализ](*<-lang_ru;;*);
+					[introspection](*<-lang_en;;*);;
+
+concept_introspection <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Самоанализ - анализ, оценка своих собственных поступков и переживаний.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (самоанализ)] (*<- lang_ru;;*);;
+                       *);;

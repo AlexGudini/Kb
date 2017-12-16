@@ -1,0 +1,37 @@
+support
+	<-sc_node_not_relation;;
+
+support => nrel_main_idtf: [сопровождение] (*<- lang_ru;;*);
+                                      [support] (*<- lang_en;;*);;
+
+support <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [процесс улучшения, оптимизации и устранения дефектов программного обеспечения (ПО) после передачи в эксплуатацию.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (сопровождение)] (*<- lang_ru;;*);;
+                       *);
+
+		    => nrel_project_phase_task: ... 
+       		       (*
+			 -> ...
+			    (*
+			      <- concept_support_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Выполнение работ в соответствии с гарантийными обязательствами.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_support_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Послегарантийное обслуживание.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+			 *);;
+				

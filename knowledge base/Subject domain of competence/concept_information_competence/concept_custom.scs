@@ -1,0 +1,23 @@
+sc_node_not_relation ->concept_custom;;
+concept_custom
+=> nrel_main_idtf:
+					[обычай]
+						(* <- lang_ru;; *);;
+concept_custom => nrel_main_idtf:
+		
+		[custom]
+			(* <- lang_en;; *);;
+
+concept_custom <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(обычай)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Общепринятый порядок, традиционно 
+		установившиеся правила общественного поведения.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

@@ -1,0 +1,22 @@
+
+concept_valeological_competence
+=> nrel_main_idtf:
+					[валеологическая компетенция]
+						(* <- lang_ru;; *);;
+concept_valeological_competence => nrel_main_idtf:
+		
+		[valeological competence]
+			(* <- lang_en;; *);;
+
+concept_valeological_competence <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(валеологическая компетенция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Валеологическая компетенция - стремление и готовность следить за своим здоровьем] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

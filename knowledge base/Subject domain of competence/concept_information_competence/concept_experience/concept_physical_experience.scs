@@ -1,0 +1,42 @@
+
+sc_node_not_relation ->concept_physical_experience;;
+concept_physical_experience
+=> nrel_main_idtf:
+					[физический опыт]
+						(* <- lang_ru;; *);;
+concept_physical_experience 
+=> nrel_main_idtf:
+		            [physical experience]
+			            (* <- lang_en;; *);;
+
+concept_physical_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(физический опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Физический опыт основывается на наблюдениях 
+		за изменениями в окружающей среде.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_physical_experience<-rrel_key_sc_element:...
+(*
+	=>nrel_idtf:[Утв.(физический опыт связывается)](*<-lang_ru;;*);;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...
+	(*
+		->[физический опыт связан с наблюдаемостью 
+		объектов внешнего мира и ей же ограничен;
+		 также он необходимо нуждается в изменямости 
+		 свойств наблюдаемых вещей во времени, в 
+		 противном случае для неизменяемых свойств не
+		  будет задан контекст сравнения.](* <- lang_ru;;*);;
+	*);;
+*);;
+
+concept_physical_experience => nrel_inclusion:
+	      concept_feel;
+       		concept_perception_of_representation;;
+	
+
+

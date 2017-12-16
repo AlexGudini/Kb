@@ -1,0 +1,43 @@
+rrel_mobile_phone
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[моб.тел'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [моб. тел. ’ – это ролевое отношение, связывающее знак исполнителя задания и знак номера его мобильного телефона. Номер указывается в международном формате](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Последовательность цифр, присвоенная абоненту оператором мобильной телефонной сети, зная которую, можно позвонить (связаться) с исполнителем проекта (участником проекта)](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Номер мобильного телефона указывается в международном формате: «код страны» + «код оператора мобильной связи» + «абонентский номер»](* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+

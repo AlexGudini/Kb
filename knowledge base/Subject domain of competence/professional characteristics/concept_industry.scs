@@ -1,0 +1,17 @@
+sc_node_not_relation -> concept_industry;;
+
+concept_industry => nrel_main_idtf:
+					                     [трудолюбие](*<-lang_ru;;*);
+					                     [industry](*<-lang_en;;*);;
+
+
+concept_industry <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Трудолюбие — черта характера, заключающаяся в положительном отношении личности к процессу трудовой деятельности.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (трудолюбие)] (*<- lang_ru;;*);;
+                       *);;
+

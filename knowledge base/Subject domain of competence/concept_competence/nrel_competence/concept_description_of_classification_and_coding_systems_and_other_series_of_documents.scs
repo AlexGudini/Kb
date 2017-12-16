@@ -1,0 +1,28 @@
+sc_node_not_relation ->concept_description_of_classification_and_coding_systems_and_other_series_of_documents;;
+concept_description_of_classification_and_coding_systems_and_other_series_of_documents
+=> nrel_main_idtf:
+					[описание систем классификации и кодирования и др. ряд документов]
+						(* <- lang_ru;; *);;
+concept_description_of_classification_and_coding_systems_and_other_series_of_documents => nrel_main_idtf:
+		
+		[description of classification and coding systems and other series of documents]
+			(* <- lang_en;; *);;
+
+concept_description_of_classification_and_coding_systems_and_other_series_of_documents <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(описание систем классификации и кодирования и др. ряд документов)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Кодирование - это обеспечение уникальной идентификации 
+		объектов, которая в совокупности с принятой
+		 системой классификации четко определяет 
+		 сущность объекта. Система классификации - это совокупность 
+		 правил и результат распределения заданного 
+		 множества объектов на подмножества в соответствии
+		  с признаками сходства или различия.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

@@ -1,0 +1,23 @@
+sc_node_norole_relation -> nrel_project_goal;;
+
+nrel_project_goal => nrel_main_idtf: [цель проекта*] (*<- lang_ru;;*);
+                                          [project goal*] (*<- lang_en;;*);;
+
+nrel_project_goal <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Цель проекта - это бинарное ориентированное отношение, связывающее проект и его цель.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (цель проекта)] (*<- lang_ru;;*);;
+                       *);;
+nrel_project_goal <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Цель – финальный результат, на который преднамеренно направлен процесс. Формулировка основной цели должна быть ориентирована на действия, краткой, простой, и как можно более понятной.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (цель проекта)] (*<- lang_ru;;*);;
+                       *);;

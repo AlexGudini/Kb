@@ -1,0 +1,20 @@
+individual
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[физическое лицо](*<-lang_ru;;*);
+
+=>nrel_idtf:
+[субъект](*<-lang_ru;;*);
+[персона](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Физическое лицо - человек как субъект права(носитель прав и обязанностей)](* <-lang_ru;; *);; 
+		*);;
+	*);;

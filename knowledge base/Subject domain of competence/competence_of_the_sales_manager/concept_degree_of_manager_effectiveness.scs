@@ -1,0 +1,5 @@
+concept_degree_of_manager_effectiveness
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [степень эффективности менеджера] (*<-lang_ru;;*);
+		  [degree of manager effectiveness] (*<-lang_en;;*);;

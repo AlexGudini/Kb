@@ -1,0 +1,17 @@
+sc_node_not_relation -> concept_character_traits;;
+
+concept_character_traits => nrel_main_idtf:
+					                     [черты характера](*<-lang_ru;;*);
+					                     [character traits](*<-lang_en;;*);;
+
+
+concept_character_traits <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Черты характера - это особенность поведения человека, которая систематически проявляется в различных ситуациях.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (черты характера)] (*<- lang_ru;;*);;
+                       *);;
+

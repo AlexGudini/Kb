@@ -1,0 +1,105 @@
+scp_program -> proc_of_adding_task_priority (*
+  -> rrel_params: ... (*
+    //Place your params here
+    //-> rrel_1: rrel_scp_var: rrel_fixed: rrel_in: _parameter;;
+ -> rrel_1: rrel_in: _task;;
+-> rrel_2: rrel_in: _priority;;
+-> rrel_3: rrel_out: _answer;;
+  *);;
+
+ -> rrel_operators: ... (*
+    //Place your operators here
+    -> rrel_init: ..proc_of_adding_task_priority_operator0 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [agent starting];;
+      => nrel_goto: ..proc_of_adding_task_priority_operator1;;
+    *);;
+
+
+->..proc_of_adding_task_priority_operator1(*
+                <- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: project_task;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_then: ..proc_of_adding_task_priority_operator1a;;
+		=> nrel_else: ..proc_of_adding_task_priority_operator1b;;
+    *);;
+
+
+    ->..proc_of_adding_task_priority_operator1a (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [elstr3];;
+      => nrel_goto: ..proc_of_adding_task_priority_operator3;;
+    *);;
+
+ ->..proc_of_adding_task_priority_operator1b (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [error];;
+      => nrel_goto: ..proc_of_adding_task_priority_return;;
+    *);;
+
+
+->..proc_of_adding_task_priority_operator3 (*
+                <- genElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _task;;
+		-> rrel_2: rrel_assign: rrel_scp_var: rrel_common:  _arc2;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _priority;;
+                -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc5;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_priority;;
+		=> nrel_goto: ..proc_of_adding_task_priority_operator4;;
+    *);;
+
+->..proc_of_adding_task_priority_operator4 (*
+                <- genElStr3;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc6;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_goto: ..proc_of_adding_task_priority_operator5;;
+    *);;
+
+->..proc_of_adding_task_priority_operator5 (*
+                <- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc7;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _arc2;;
+		=> nrel_goto: ..proc_of_adding_task_priority_operator6;;
+    *);;
+
+->..proc_of_adding_task_priority_operator6 (*
+                <- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc8;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _priority;;
+		=> nrel_goto: ..proc_of_adding_task_priority_operator7;;
+    *);;
+
+->..proc_of_adding_task_priority_operator7 (*
+                <- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc9;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _arc5;;
+		=> nrel_goto: ..proc_of_adding_task_priority_operator8;;
+    *);;
+
+->..proc_of_adding_task_priority_operator8 (*
+                <- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc10;;
+		-> rrel_3: rrel_fixed: rrel_scp_const: nrel_priority;;
+		=> nrel_goto: ..proc_of_adding_task_priority_operator9;;
+    *);;
+
+->..proc_of_adding_task_priority_operator9 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [added];;
+      => nrel_goto: ..proc_of_adding_task_priority_return;; 
+    *);;
+
+
+
+
+    -> ..proc_of_adding_task_priority_return (*
+      <- return;;
+    *);;
+  *);;
+*);;

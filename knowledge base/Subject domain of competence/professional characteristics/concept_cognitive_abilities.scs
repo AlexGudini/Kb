@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_cognitive_abilities;;
+
+concept_cognitive_abilities => nrel_main_idtf:
+					[познавательные способности](*<-lang_ru;;*);
+					[cognitive abilities](*<-lang_en;;*);;
+
+concept_cognitive_abilities <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Познавательные способности человека – это свойство мозга изучать 
+                          и анализировать окружающую действительность, находя способы применения полученной информации на практике.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (познавательные способности)] (*<- lang_ru;;*);;
+                       *);;

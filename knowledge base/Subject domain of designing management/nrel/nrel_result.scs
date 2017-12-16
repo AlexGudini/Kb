@@ -1,0 +1,23 @@
+nrel_result
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[результат*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:project;
+=>nrel_second_domain:result;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->project;; ->result;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [результат*-бинарное ориентированное отношение, каждая связка которого связывает знак проекта со знаком множества его результатов](* <-lang_ru;; *);; 
+		*);;
+	*);;

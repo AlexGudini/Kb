@@ -1,0 +1,10 @@
+doctor_of_sciences
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[доктор наук](*<-lang_ru;;*);
+[doctor of sciences](*<-lang_en;;*);;
+
+
+
+

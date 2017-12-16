@@ -1,0 +1,16 @@
+concept_result_focus
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [ориентированность на результат] (*<-lang_ru;;*);
+		  [result focus] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Ориентированность на результат - это понимание сотрудником стоящих перед ним и компанией задач и умение систематически добиваться их реализации.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (ориентированность на результат)] (*<- lang_ru;;*);;
+			*);;

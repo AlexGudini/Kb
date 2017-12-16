@@ -1,0 +1,27 @@
+means_of_communication<-sc_node_not_relation;
+=>nrel_main_idtf:
+[контактные данные](*<-lang_ru;;*);
+=>nrel_main_idtf:
+[средства связи](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Контактные данные определяет средства, с помощью которых можно связаться с участником проекта](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://explanation_for_contact_details.html"(* <-lang_ru;; *);; 
+		*);;
+	*);;

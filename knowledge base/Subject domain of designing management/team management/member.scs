@@ -1,0 +1,42 @@
+member
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[участник](*<-lang_ru;;*);
+[member](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [участник проекта – физическое лицо и (или) организация, непосредственно вовлечённые в проект или чьи интересы могут быть затронуты при осуществлении проекта](* <-lang_ru;; *);; 
+		*);;
+	*);
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [участники проекта имеют различные уровни ответственности и полномочий при участии в проекте, причём ответственность и полномочия могут меняться на разных этапах жизненного цикла проекта](* <-lang_ru;; *);; 
+		*);;
+	*);
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: "file://explanation_for_member.html"
+                (* <-lang_ru;; *);; 
+		*);;
+	*);;

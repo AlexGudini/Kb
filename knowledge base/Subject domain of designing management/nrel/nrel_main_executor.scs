@@ -1,0 +1,6 @@
+nrel_main_executor
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+[основной исполнитель*](*<-lang_ru;;*);
+[main executor*](*<-lang_en;;*);
+<-nrel_strict_inclusion:nrel_project_executor;;

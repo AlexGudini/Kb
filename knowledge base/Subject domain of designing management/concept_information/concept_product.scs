@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_product;;
+
+concept_product => nrel_main_idtf: [продукт] (*<- lang_ru;;*);
+                                   [product] (*<- lang_en;;*);
+
+                => nrel_idtf: [цель проекта] (*<- lang_ru;;*);;
+
+concept_product <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Конкретный выход или результат выполнения этого проекта] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (продукт)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_product <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [конечный результат, полученный в рамках некоторого проекта, в соответствии целью этого проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (продукт)] (*<- lang_ru;;*);;
+                       *);;

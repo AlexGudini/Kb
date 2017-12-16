@@ -1,0 +1,26 @@
+concept_linguistic_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [лингвистическая компетенция] (*<-lang_ru;;*);
+		  [linguistic competence] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Лингвистическая компетенция – это владение знанием о системе языка, о правилах функционирования единиц языка в речи и способность с помощью этой системы понимать чужие мысли и выражать собственные суждения в устной и письменной форме.] (*<-lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (лингвистическая компетенция)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Человек пишет письмо на иностранном языке.] (*<-lang_ru;;*);; 
+                         *);;
+			*);;

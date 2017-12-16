@@ -1,0 +1,4 @@
+sc_node_not_relation -> concept_non_atomic_project;;
+
+concept_non_atomic_project => nrel_main_idtf: [неатомарный проект] (*<- lang_ru;;*);
+                                              [non-atomic project] (*<- lang_en;;*);;

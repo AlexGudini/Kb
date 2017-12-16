@@ -1,0 +1,21 @@
+concept_corporate_competence
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [корпоративная компетенция] (*<-lang_ru;;*);
+	   	  [corporate competence] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Корпоративные компетенции — это компетенции, необходимые всем сотрудникам компании.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (корпоративная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_corporate_competence =>nrel_inclusion: concept_learning_new_skills;
+					       concept_cooperation;
+					       concept_customer_focus;
+					       concept_result_focus;;

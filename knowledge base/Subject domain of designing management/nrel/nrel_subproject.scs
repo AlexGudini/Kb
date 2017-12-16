@@ -1,0 +1,15 @@
+sc_node_norole_relation -> nrel_subproject;;
+
+nrel_subproject => nrel_main_idtf:
+				[субпроект*](*<-lang_ru;;*);
+				[subproject](*<-lang_en;;*);;
+
+nrel_subproject <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Субпроект* – это проект, в рамках более крупного проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (субпроект*)] (*<- lang_ru;;*);;
+                       *);;

@@ -1,0 +1,37 @@
+concept_algebraic_competence <- sc_node_not_relation;;
+
+concept_algebraic_competence => nrel_main_idtf: [алгебраическая компетенция] (*<-lang_ru;;*);
+						[algebraic competence] (*<-lang_en;;*);;
+
+concept_algebraic_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Знание основ математического аппарата, необходимого для решения практических задач.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (алгебраическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_algebraic_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Обладание навыками составления математических моделей.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (алгебраическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_algebraic_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Развитие способностей к логическому и алгоритмическому мышлению.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (алгебраическая компетенция)] (*<- lang_ru;;*);;
+			*);;

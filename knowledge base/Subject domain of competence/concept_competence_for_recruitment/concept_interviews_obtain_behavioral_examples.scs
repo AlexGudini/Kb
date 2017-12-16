@@ -1,0 +1,23 @@
+
+
+sc_node_not_relation ->concept_interviews_obtain_behavioral_examples;;
+concept_interviews_obtain_behavioral_examples
+=> nrel_main_idtf:
+          [интервью по получению поведенческих примеров]
+            (* <- lang_ru;; *);;
+concept_interviews_obtain_behavioral_examples => nrel_main_idtf:
+    
+    [interviews obtain behavioral examples]
+      (* <- lang_en;; *);;
+
+concept_interviews_obtain_behavioral_examples <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(интервью по получению поведенческиех примеров)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Задача ИПП — получить очень подробные поведенческие
+     описания того, как человек справляется со своей работой. ] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+

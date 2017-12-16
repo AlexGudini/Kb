@@ -1,0 +1,29 @@
+
+sc_node_not_relation ->concept_mental_experience;;
+concept_mental_experience
+=> nrel_main_idtf:
+					[ментальный опыт]
+						(* <- lang_ru;; *);;
+concept_mental_experience 
+=> nrel_main_idtf:
+		            [mental experience]
+			            (* <- lang_en;; *);;
+
+concept_mental_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(ментальный опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Физический опыт основывается на наблюдениях 
+		за изменениями в окружающей среде.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_mental_experience => nrel_inclusion:
+	      concept_intelligence;
+       		concept_consciousnesses;;
+	
+
+

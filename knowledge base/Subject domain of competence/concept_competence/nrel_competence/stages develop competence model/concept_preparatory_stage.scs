@@ -1,0 +1,27 @@
+
+
+sc_node_not_relation ->concept_preparatory_stage;;
+concept_preparatory_stage
+=> nrel_main_idtf:
+          [подготовительный этап]
+            (* <- lang_ru;; *);;
+concept_preparatory_stage => nrel_main_idtf:
+    
+    [preparatory stage]
+      (* <- lang_en;; *);;
+
+
+
+concept_preparatory_stage <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(подготовительный этап)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Подготовительный этап - начальный этап разработки модели
+    компетенций] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+

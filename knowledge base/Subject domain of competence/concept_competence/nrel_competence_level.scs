@@ -1,0 +1,26 @@
+nrel_competence_level
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf: [уровень компетенции*] (*<-lang_ru;;*);
+=>nrel_main_idtf: [competence level*] (*<-lang_en;;*);
+
+=>nrel_first_domain: concept_competence;
+=>nrel_second_domain: concept_competence_without_levels;
+		      concept_competence_by_levels;
+=>nrel_third_domain: concept_level;
+
+<-rrel_key_sc_element: ...
+			(*
+			<-sc_explanation;;
+			
+			<=nrel_sc_text_translation: ...
+						(*
+						->[В зависимости от смыслового объема компетенции могут иметь уровни.](*<-lang_ru;;*);;
+						*);;
+			=>nrel_main_idtf: [Утв. (уровень компетенции*)](*<-lang_ru;;*);;
+			*);;
+
+nrel_competence_level <- antireflexive_relation;;
+nrel_competence_level <- antisymmetric_relation;;
+nrel_competence_level <- antitransitive_relation;;
+			

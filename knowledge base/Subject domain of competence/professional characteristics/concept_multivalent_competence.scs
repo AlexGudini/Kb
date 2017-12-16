@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_multivalent_competence;;
+
+concept_multivalent_competence => nrel_main_idtf:
+					[поливалентная компетентность](*<-lang_ru;;*);
+					[multivalent competence](*<-lang_en;;*);;
+
+concept_multivalent_competence <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Поливалентная компетентность - компетентность состоящая более чем из одной компетенции.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (поливалентная компетентность)] (*<- lang_ru;;*);;
+                       *);;

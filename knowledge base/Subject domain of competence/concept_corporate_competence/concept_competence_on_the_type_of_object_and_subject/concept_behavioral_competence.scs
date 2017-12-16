@@ -1,0 +1,31 @@
+concept_behavioral_competence <- sc_node_not_relation;;
+
+concept_behavioral_competence => nrel_main_idtf: [поведенческая компетенция] (*<-lang_ru;;*);
+						     [behavioral competence] (*<-lang_en;;*);;
+
+
+concept_behavioral_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Требуют формирования поведенческих контекстов, чтобы точнее определять уровень и то, насколько их конкретный набор пригоден для профессиональной среды.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (поведенческая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_behavioral_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Поведенческие компетенции поддаются измерению и определению с большим трудом.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (поведенческая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+
+
+

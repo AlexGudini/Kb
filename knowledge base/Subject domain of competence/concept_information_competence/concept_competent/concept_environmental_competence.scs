@@ -1,0 +1,23 @@
+
+concept_environmental_competence
+=> nrel_main_idtf:
+					[экологическая компетенция]
+						(* <- lang_ru;; *);;
+concept_environmental_competence => nrel_main_idtf:
+		
+		[environmental competence]
+			(* <- lang_en;; *);;
+
+concept_environmental_competence <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(экологическая компетенция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Экологическая компетенция -знание закономерностей развития природы и общества и пр.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+	
+

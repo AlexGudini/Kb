@@ -1,0 +1,16 @@
+concept_principal_competence <- sc_node_not_relation;;
+
+concept_principal_competence => nrel_main_idtf: [принципиальная компетнция] (*<-lang_ru;;*);
+						[principal competence] (*<-lang_en;;*);;
+
+concept_principal_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Характерные особенности, четко разделяющие компанию и ее конкурентов.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (принципиальная компетенция)] (*<- lang_ru;;*);;
+			*);;
+ 

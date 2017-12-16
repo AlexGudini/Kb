@@ -1,0 +1,29 @@
+
+
+
+
+sc_node_not_relation ->concept_develop_competency_model;;
+concept_develop_competency_model
+=> nrel_main_idtf:
+          [разработка модели компетенций]
+            (* <- lang_ru;; *);;
+concept_develop_competency_model => nrel_main_idtf:
+    
+    [develop competency model]
+      (* <- lang_en;; *);;
+
+concept_develop_competency_model <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(разработка модели компетенций)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Этап после подготовительного этапа разработки модели компетенций] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+
+
+
+
+

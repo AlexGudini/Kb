@@ -1,0 +1,30 @@
+rrel_responsible_for_poject
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[ответственный за проект'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ответственный за проект' – это ролевое отношение, используемые в связках отношения исполнители* для указания роли исполнителей](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ответственный за проект'-физическое лицо, отвечающее за качество и результат функционирования проекта, за который оно ответственно. Ответственный за проект распределяет задания между исполнителями заданий, которые в свою очередь назначил менеджер проекта.](* <-lang_ru;; *);; 
+		*);;
+	*);;

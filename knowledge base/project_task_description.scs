@@ -1,0 +1,12 @@
+project_task
+	<- rrel_key_sc_element:
+		..key_node_project_task
+		(*
+			<- sc_explanation;;
+			<= nrel_sc_text_translation:	
+				..translation_project_task
+				(*
+					-> rrel_example:
+						[Задачи должны именоваться следующим образом "Задача. Название задачи"];;
+				*);;
+		*);;

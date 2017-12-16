@@ -1,0 +1,20 @@
+rrel_postcode
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[индекс'](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Почтовый индекс – условное цифровое обозначение адреса, присваемого объекту почтой связи](* <-lang_ru;; *);; 
+		*);;
+	*);;
+

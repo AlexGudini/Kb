@@ -1,0 +1,18 @@
+activity<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[деятельность](*<-lang_ru;;*);
+[activity](*<-lang_en;;*);
+
+->action;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [деятельность - мотивированный процесс использования тех или иных средств для достижения цели.](* <-lang_ru;; *);; 
+		*);;
+	*);;

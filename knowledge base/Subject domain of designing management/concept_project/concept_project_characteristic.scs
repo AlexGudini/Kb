@@ -1,0 +1,6 @@
+sc_node_not_relation -> concept_project_characteristic;;
+
+concept_project_characteristic => nrel_main_idtf: [проектная характеристика] (*<- lang_ru;;*);
+                                     		  [project characteristic] (*<- lang_en;;*);
+			       
+			       -> concept_product; concept_shedule; concept_resources;;

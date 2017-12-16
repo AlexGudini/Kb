@@ -1,0 +1,17 @@
+academic_degree
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[ученая степень](*<-lang_ru;;*);
+[academic degree](*<-lang_en;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ученая степень - ступень квалификационной системы в науке, позволяющей ранжировать научных деятелей на отдельных этапах академической карьеры.](* <-lang_ru;; *);; 
+		*);;
+	*);;

@@ -1,0 +1,63 @@
+
+sc_node_not_relation ->concept_social_experience;;
+concept_social_experience
+=> nrel_main_idtf:
+					[социальный опыт]
+						(* <- lang_ru;; *);;
+concept_social_experience 
+=> nrel_main_idtf:
+		            [social experience]
+			            (* <- lang_en;; *);;
+
+concept_social_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(социальный опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Социальный опыт - устойчивая система привычек, 
+		чувств, знаний и умений, которая формируется у
+		 человека в течение его жизни.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_social_experience<-rrel_key_sc_element:...
+(*
+	=>nrel_idtf:[Утв.(социальный опыт неоходим)](*<-lang_ru;;*);;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...
+	(*
+		->[Социальный опыт предоставляет индивиду навыки,
+		 необходимые для участия в жизни общества, так
+		  как общество формируется через обмен опытом, 
+		  обычаи, ценности, традиции, социальные роли 
+		  и язык.](* <- lang_ru;;*);;
+	*);;
+*);;
+
+concept_social_experience => nrel_inclusion:
+	      concept_custom;
+       		concept_value;
+       		concept_tradition;
+       		concept_social_rule;
+       		concept_language;;
+
+
+
+concept_value
+=> nrel_main_idtf:
+					[ценность]
+						(* <- lang_ru;; *);;
+concept_value 
+=> nrel_main_idtf:
+		            [value]
+			            (* <- lang_en;; *);;
+
+
+	concept_social_rule
+=> nrel_main_idtf:
+					[социальная роль]
+						(* <- lang_ru;; *);;
+concept_value 
+=> nrel_main_idtf:
+		            [social rule]
+			            (* <- lang_en;; *);;

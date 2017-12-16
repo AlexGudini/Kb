@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_html;;
+
+concept_html => nrel_main_idtf:
+					                     [язык гипертекстовой разметки](*<-lang_ru;;*);
+					                     [html](*<-lang_en;;*);
+					                     [HTML](*<-lang_en;;*);;
+
+concept_html <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [HTML — стандартизированный язык разметки документов во Всемирной паутине.
+                           Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (html)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_html<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [ Язык HTML интерпретируется браузерами; полученный в результате интерпретации 
+        форматированный текст отображается на экране монитора компьютера или мобильного устройства.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(html, браузер, результат, текст)] (* <- lang_ru;; *);;
+
+  *);;  

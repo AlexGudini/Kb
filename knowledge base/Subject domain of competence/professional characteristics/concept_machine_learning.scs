@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_machine_learning;;
+
+concept_machine_learning => nrel_main_idtf:
+					                     [машинное обучение](*<-lang_ru;;*);
+					                     [machine learning](*<-lang_en;;*);;
+
+
+concept_machine_learning <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Машинное обучение — обширный подраздел искусственного интеллекта, 
+                          изучающий методы построения алгоритмов, способных обучаться] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (машинное обучение)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_machine_learning<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [Машинное обучение — класс методов искусственного интеллекта,
+         характерной чертой которых является не прямое решение задачи, а обучение в процессе применения решению множества сходных задач.  ](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(машинное обучение, искусственный интеллект, задача, обучение)] (* <- lang_ru;; *);;
+
+  *);; 

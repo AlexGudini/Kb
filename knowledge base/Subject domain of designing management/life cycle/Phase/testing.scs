@@ -1,0 +1,39 @@
+sc_node_not_relation -> testing;;
+
+testing => nrel_main_idtf: [тестирование] (*<- lang_ru;;*);
+                                   [testing] (*<- lang_en;;*);
+		
+		=> nrel_next_project_phase: planning; introduction;;
+
+concept_testing	-> concept_verification; concept_debugging;;
+
+testing <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Тестирование работоспособности системы.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (тестирование)] (*<- lang_ru;;*);;
+                       *);
+
+		    => nrel_project_phase_task: ... 
+       		       (*
+			 -> ...
+			    (*
+			      <- concept_testing_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Анализ системы на предмет неисправностей и недочетов.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+
+			 -> ...
+			    (*
+			      <- concept_testing_task;;
+			      <= nrel_sc_text_translation: ... 
+			    	 (*
+			      	   -> [Устранение неисправностей и недочетов.] (*<- lang_ru;;*);;
+				  *);;
+			     *);;
+			 *);;

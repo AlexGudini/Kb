@@ -1,0 +1,16 @@
+result
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[результат](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [результат - заключительное последствие последовательности действий или событий,выраженных качественно или количественно](* <-lang_ru;; *);; 
+		*);;
+	*);;

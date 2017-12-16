@@ -1,0 +1,48 @@
+
+sc_node_not_relation -> concept_business_ethics;;
+
+concept_business_ethics
+=> nrel_main_idtf: 
+		[деловая этика](* <- lang_ru;; *);;
+
+concept_business_ethics
+=> nrel_main_idtf:
+		[business ethics](* <- lang_en;; *);;
+
+concept_business_ethics<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	=>nrel_idtf:[Опр.(деловая этика)](*<-lang_ru;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->[Деловая этика — правила и нормы служебного
+		 поведения. Деловая этика - система идеалов, 
+		 на которые опирается предприниматель, менеджер, 
+		 любой деловой человек, чтобы достичь 
+		 поставленной цели.](* <- lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_business_ethics<-rrel_key_sc_element:...
+(*
+	=>nrel_idtf:[Утв.(деловая этика базируется)](*<-lang_ru;;*);;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...
+	(*
+		->[Деловая этика базируется на моральных
+		 и нравственных принципах, на определенных 
+		 правилах поведения как на фирме, так и вне
+		  ее, а также на правовых критериях, которые 
+		  устанавливаются законодательными актами 
+		  государства, и на международных правилах 
+		  и принципах.](* <- lang_ru;;*);;
+	*);;
+*);;
+
+concept_ethics => nrel_inclusion:concept_business_ethics;;
+
+
+
+

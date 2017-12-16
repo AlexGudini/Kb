@@ -1,0 +1,14 @@
+Grakova_Natalia_Viktorovna
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:[Гракова Наталья Викторовна](*<-lang_ru;;*);
+=>nrel_main_idtf:[Grakova Natalia Viktorovna](*<-lang_en;;*);
+
+=>nrel_contact_details:{
+rrel_mobile_phone:[+375295510999](*<-lang_ru;;*);
+rrel_skype:[chertenok-nat](*<-lang_en;;*);
+rrel_email:[grakova.nv@gmail.com](*<-lang_en;;*);
+rrel_bitbucket:[https://bitbucket.com/grakova](*<-lang_en;;*)
+};
+
+<-person;;

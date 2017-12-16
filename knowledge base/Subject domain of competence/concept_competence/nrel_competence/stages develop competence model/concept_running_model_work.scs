@@ -1,0 +1,24 @@
+
+
+sc_node_not_relation ->concept_running_model_work;;
+concept_running_model_work
+=> nrel_main_idtf:
+          [работа с работающей моделью]
+            (* <- lang_ru;; *);;
+concept_running_model_work => nrel_main_idtf:
+    
+    [direct observation]
+      (* <- lang_en;; *);;
+
+concept_analysis_of_workload <- rrel_key_sc_element:
+...(*
+  <-sc_text_explanation;;
+  =>nrel_main_idtf:[Опр.(работа с работающей моделью)](*<-lang_ru;;*);;
+  <=nrel_sc_text_translation: ...(*
+    ->[Работа с работающей моделью - процесс работы с готовой 
+    моделью компетенций.] (*<-lang_ru;;*);;
+  *);;
+*);;
+
+
+

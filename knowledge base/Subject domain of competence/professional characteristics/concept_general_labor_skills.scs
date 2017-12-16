@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_general_labor_skills;;
+
+concept_general_labor_skills => nrel_main_idtf:
+					[общетрудовые умения](*<-lang_ru;;*);
+					[general labor skills](*<-lang_en;;*);;
+
+concept_general_labor_skills <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Общетрудовые умения - умения необходимые для осуществления любой трудовой деятельности: планирование, организация работы, 
+                          самоконтроль, соблюдение правил техники безопасности, поиск неисправностей и др.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (общетрудовые умения)] (*<- lang_ru;;*);;
+                       *);;

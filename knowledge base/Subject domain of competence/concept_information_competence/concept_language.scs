@@ -1,0 +1,24 @@
+sc_node_not_relation ->concept_language;;
+concept_language
+=> nrel_main_idtf:
+					[язык]
+						(* <- lang_ru;; *);;
+concept_language => nrel_main_idtf:
+		
+		[language]
+			(* <- lang_en;; *);;
+
+concept_language <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(язык)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Язы́к — сложная знаковая система, естественно
+		 или искусственно
+		 созданная и соотносящая понятийное содержание 
+		 и типовое звучание] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+

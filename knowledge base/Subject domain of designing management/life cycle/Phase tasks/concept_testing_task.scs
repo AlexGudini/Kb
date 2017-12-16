@@ -1,0 +1,16 @@
+sc_node_norole_relation -> concept_testing_task;;
+
+concept_testing_task => nrel_main_idtf: [задача тестирования] (*<- lang_ru;;*);
+                                      	   [testing task] (*<- lang_en;;*);
+
+			<- concept_project_task;
+
+			<- rrel_key_sc_element: ...
+                        (* 
+                          <- sc_text_definition;;
+ 		          <= nrel_sc_text_translation: ... 
+                          (*
+                            -> [Задача, решаемая на стадии тестирования проекта.] (*<- lang_ru;;*);; 
+                           *);;
+                          => nrel_main_idtf: [Опр. (задача тестирования)] (*<- lang_ru;;*);;
+                         *);;

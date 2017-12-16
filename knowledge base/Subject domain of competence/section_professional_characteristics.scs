@@ -1,0 +1,60 @@
+
+
+section_professional_characteristics
+	=>nrel_main_idtf:[Раздел профессиональные характеристики](*<-lang_ru;;*);
+			 [Section professional characteristics](*<-lang_en;;*);;
+
+	section_professional_characteristics
+	->rrel_key_sc_element_of_subject_domain:
+		concept_attention;
+		concept_character_traits;
+		concept_cognitive_abilities;
+		concept_diligence;
+		concept_entrepreneurial_skills;
+		concept_experience_of_work;
+		concept_general_labor_skills;
+		concept_html;
+		concept_industry;
+		concept_initiative;
+		concept_introspection;
+		concept_javascript;
+		concept_java;
+		concept_labor_activity;
+		concept_linux;
+		concept_machine_learning;
+		concept_multivalent_competence;
+		concept_net_framework;
+		concept_oop;
+		concept_operating_system;
+		concept_php;
+		concept_planning;
+		concept_portfolio;
+		concept_professional_portrait_of_personality;
+		concept_psychophysiological_characteristics_of_man;
+		concept_self_control;
+		concept_self_management_skills;
+		concept_seniority;
+		concept_sensorymotor_qualifications;
+		concept_special_cognitive_abilities;
+		concept_sql;
+		concept_stress_resistance;
+		concept_thinking;
+		concept_training;
+		concept_understanding;
+		concept_windows;
+		concept_xml;
+		nrel_knowledge_of_natural_languages;
+		nrel_knowledge_of_programming_languages;
+		nrel_knowledge_of_software:
+		nrel_operating_system_knowledge;
+		nrel_personal_qualifications;
+		nrel_personal_qualities;
+		nrel_professional_skills;
+		nrel_skill_to_work_in_team;
+		nrel_special_abilities;
+		nrel_training;;
+	
+
+
+
+

@@ -1,0 +1,50 @@
+nrel_special_abilities=>nrel_idtf:
+[специальные способности*](*<-lang_ru;;*);;
+nrel_special_abilities=>nrel_main_idtf:
+[специальные способности*](*<-lang_ru;;*);;
+nrel_special_abilities=>nrel_idtf:
+[special abilities*](*<-lang_en;;*);;
+
+nrel_special_abilities=>nrel_first_domain:person;;
+nrel_special_abilities=>nrel_second_domain:concept_abilities;;
+nrel_special_abilities=>nrel_definitional_domain: ...
+	(*
+		<=nrel_union:...
+			(*
+				->person;;
+				->concept_abilities;;
+			*);;
+	*);;
+
+nrel_special_abilities=>nrel_arity_of_relations: 2
+	(*
+		<-number;;
+	*);;
+
+relation=>nrel_inclusion:binary_relation;;
+relation=>nrel_inclusion:oriented_relation;;
+binary_relation=>nrel_inclusion:antisymmetric_relation;;
+binary_relation=>nrel_inclusion:antitransitive_relation;;
+binary_relation=>nrel_inclusion:antireflexive_relation;;
+oriented_relation->nrel_special_abilities;;
+antisymmetric_relation->nrel_special_abilities;;
+antitransitive_relation->nrel_special_abilities;;
+antireflexive_relation->nrel_special_abilities;;
+
+nrel_special_abilities<-rrel_key_sc_element: ...
+	(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation: ...
+			(*
+				->[Специальные способности - способности, которые отчетливо проявляются 
+				в отдельных специальных областях деятельности.](*<-lang_ru;;*);;
+			*);;
+		<=nrel_using_constants: ...
+			(*
+				->concept_test;;
+				->nrel_mark;;
+			*);;
+		=>nrel_main_idtf:[Опр.(специальные способности*)](*<-lang_ru;;*);;
+
+	*);;
+

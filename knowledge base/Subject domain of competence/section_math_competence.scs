@@ -1,0 +1,17 @@
+
+section_concept_math_competence
+	=>nrel_main_idtf:[Раздел математических компетенций](*<-lang_ru;;*);
+			 [Section math competence](*<-lang_en;;*);;
+
+	section_concept_math_competence
+	->rrel_key_sc_element_of_subject_domain:
+		concept_algebraic_competence;
+		concept_func_math_competence;
+		concept_geometric_competence;
+		concept_math_competence;
+		concept_probabilistic_competence;
+		concept_statement_of_tasks;
+		concept_topological_competence;;
+
+
+

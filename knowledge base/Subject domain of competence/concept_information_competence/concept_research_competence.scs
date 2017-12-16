@@ -1,0 +1,17 @@
+sc_node_not_relation -> concept_research_competence;;
+concept_research_competence => nrel_main_idtf:[научно-исследовательская компетенция](* <- lang_ru;; *);;
+concept_research_competence => nrel_main_idtf:[research competence](* <- lang_en;;*);;
+
+concept_research_competence <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(научно-исследовательская компетенция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Научно-исследовательская компетенция - навыки необходимые для проведения научно-исследовательских работ] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+concept_research_competence => nrel_inclusion:
+concept_professionalism;;
+	

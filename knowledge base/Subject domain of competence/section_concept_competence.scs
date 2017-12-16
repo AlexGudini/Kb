@@ -1,0 +1,44 @@
+section_concept_competence
+	=>nrel_main_idtf:[Раздел компетенций ](*<-lang_ru;;*);
+			 [Section concept competence](*<-lang_en;;*);;
+
+	section_concept_competence
+	->rrel_key_sc_element_of_subject_domain:
+		concept_autonomizing_competence;
+		concept_competence;
+		concept_for_levels;
+		concept_level;
+		concept_moral_competence;
+		concept_productive_competence;
+		concept_professionalism;
+		concept_without_levels;
+		nrel_competence_level;
+		nrel_competence_type;
+		nrel_competence;
+		concept_mark;
+		concept_develop_model_of_competency_profile;
+		concept_description_of_automated_functions;
+		concept_description_of_classification_and_coding_systems_and_other_series_of_documents;;
+
+
+section_concept_competence
+	<= nrel_section_decomposition:
+	{
+		section_develop_competence_model
+	};;
+
+
+section_develop_competence_model
+	=>nrel_main_idtf:[Раздел разработка модели компетенций](*<-lang_ru;;*);
+			 [Section domain digital information](*<-lang_en;;*);;
+
+section_develop_competence_model
+	->rrel_key_sc_element_of_subject_domain:
+		concept_develop_competency_model;
+		concept_development_competence_model;
+		concept_formation_of_competency_profiles_for_specific_positions;
+		concept_preparatory_stage;
+		concept_running_model_work;
+		concept_working_out_the_levels_of_competency_model;
+		nrel_stages_development_competence_model;
+		nrel_ways_develop_model_profile_competences;;

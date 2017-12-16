@@ -1,0 +1,33 @@
+scp_program -> proc_of_deleting_person_from_team (*
+  -> rrel_params: ... (*
+     -> rrel_1: rrel_in: _team;; 
+ -> rrel_2: rrel_in: _person;; 
+ -> rrel_3: rrel_out: _answer;; 
+
+  *);;
+  -> rrel_operators: ... (*
+    //Place your operators here
+    -> rrel_init: ..operator0 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [агент начал работу];;
+      => nrel_goto: ..operator1;;
+     *);;
+    ->   ..operator1 (*
+    <- searchElStr3;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _team;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc0;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+      => nrel_then: ..operator2;;
+      => nrel_else: ..operator_return;;
+    *);;
+
+    -> ..operator2 (*
+      <- eraseEl;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc0;;
+      => nrel_goto: ..operator1;;
+    *);;
+    -> ..operator_return (*
+      <- return;;
+    *);;
+  *);;
+*);;

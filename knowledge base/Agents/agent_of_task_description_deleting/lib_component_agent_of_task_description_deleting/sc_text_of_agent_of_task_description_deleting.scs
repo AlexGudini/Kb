@@ -1,0 +1,6 @@
+sc_text_of_agent_of_task_description_deleting
+-> rrel_key_sc_element:
+	agent_of_task_description_deleting;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_task_description_deleting = [*^"file://agent_of_task_description_deleting.scsi"*];;

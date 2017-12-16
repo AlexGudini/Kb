@@ -1,0 +1,38 @@
+concept_resource_allocation
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [распределение ресурсов] (*<-lang_ru;;*);
+		  [resource allocation] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Распределение (контроль) ресурсов - умение обеспечить сотрудников ресурсами и полномочиями, необходимыми для достижения намеченных целей, следить за достигнутыми результатами, соотнося их с установленным планом.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (распределение ресурсов)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Установление минимально необходимого контроля] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (распределение ресурсов)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Cлежение за достигнутыми результатами, соотнося их с установленным планом.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (распределение ресурсов)] (*<- lang_ru;;*);;
+			*);;

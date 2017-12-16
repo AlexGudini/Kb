@@ -1,0 +1,24 @@
+sc_node_not_relation -> concept_shedule;;
+
+concept_shedule => nrel_main_idtf: [график] (*<- lang_ru;;*);
+                                   [schedule] (*<- lang_en;;*);;
+
+concept_shedule <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Установление чётких сроков начала и завершения работ (проектных задач) по некоторому проекту.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (график)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_shedule <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Сроки выполнения (в днях или часах) проектных задач.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (график)] (*<- lang_ru;;*);;
+                       *);;

@@ -1,0 +1,14 @@
+sc_node_not_relation -> concept_version;;
+
+concept_version => nrel_main_idtf: [версия] (*<- lang_ru;;*);
+                                   [version] (*<- lang_en;;*);;
+
+concept_version <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Версия – набор историй, которые вместе обладают смыслом с точки зрения бизнеса. (Бэк Кент Экстремальное программирование).] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (версия)] (*<- lang_ru;;*);;
+                       *);;

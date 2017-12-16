@@ -1,0 +1,27 @@
+concept_communication
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [коммуникация] (*<-lang_ru;;*);
+		  [communication] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Коммуникация – умение «слушать и слышать» сообщения и информацию.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (коммуникация)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Проведение заранее подготовленных и спонтанных выступлений, соответствующие аудитории и теме и обеспечивающие достижение желаемых результатов.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (коммуникация)] (*<- lang_ru;;*);;
+			*);;

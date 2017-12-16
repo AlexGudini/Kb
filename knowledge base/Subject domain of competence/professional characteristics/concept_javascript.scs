@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_javascript;;
+
+concept_javascript => nrel_main_idtf:
+					                     [JavaScript](*<-lang_ru;;*);
+					                     [JavaScript](*<-lang_en;;*);;
+
+
+concept_javascript <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [JavaScript — прототипно-ориентированный сценарный язык программирования.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (JavaScript)] (*<- lang_ru;;*);;
+                       *);;
+
+  concept_javascript<-rrel_key_sc_element: ...
+  (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation: ...
+      (*
+        -> rrel_example: [ JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. 
+        Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.](*<-lang_ru;;*);;
+      *);;
+    => nrel_main_idtf: [Утв.(JavaScript, браузер, язык сценариев, веб-страница)] (* <- lang_ru;; *);;
+
+  *);;  

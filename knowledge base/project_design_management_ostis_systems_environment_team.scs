@@ -1,0 +1,15 @@
+project_design_management_ostis_systems_environment_team
+	=> nrel_main_idtf:[Команда разработчиков проекта "Среда управления проектированием ostis-систем"](* <-lang_ru;; *);
+	=> nrel_main_idtf:[The development team of project "design management environment ostis-systems"](* <-lang_en;; *);
+
+	<- team;
+
+	-> rrel_project_head:Grakova_Natalia_Viktorovna;
+	-> rrel_scientific_consultant:Grakova_Natalia_Viktorovna;
+
+	-> rrel_kb_developer: Semenov_Vladislav_Sergeevich;
+			      Parfenenko_Artyom_Sergeevich;
+			      BelavskiiVA;
+			      Makedon_Egor_Alexandrovich;
+
+	->rrel_kpm_developer: Semenov_Vladislav_Sergeevich;;

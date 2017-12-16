@@ -1,0 +1,16 @@
+concept_knowledge_of_the_material_and_theoretical_parts
+<-sc_node_not_relation;
+
+=> nrel_main_idtf: [знание материальной и теоретической частей] (*<-lang_ru;;*);
+		   [knowledge of the material and theoretical parts] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Знание материальной и теоретической частей формируется на основании отраслевого образования и системы повышения квалификации.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (знание материальной и теоретической частей)] (*<- lang_ru;;*);;
+			*);;

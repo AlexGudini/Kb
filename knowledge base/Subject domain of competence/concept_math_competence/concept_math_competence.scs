@@ -1,0 +1,23 @@
+concept_math_competence <- sc_node_not_relation;;
+
+concept_math_competence => nrel_main_idtf: [математическая компетенция](*<-lang_ru;;*);
+				      [math competence](*<-lang_en;;*);;
+
+concept_math_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Способность обучаемых, позволяющая им применять систему усвоенных математических знаний, умений и навыков в исследовании математических моделей профессиональных задач, вклющающая умения логически мыслить, оценивать, отбирать и использовать информацию, самостоятельно принимать решения.](*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (математическая компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_math_competence => nrel_inclusion: concept_algebraic_competence;
+					   concept_geometric_competence;
+					   concept_func_math_competence;
+					   concept_probabilistic_competence;
+					   concept_topological_competence;;
+
+

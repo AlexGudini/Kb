@@ -1,0 +1,16 @@
+concept_cooperation
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [сотрудничество] (*<-lang_ru;;*);
+		  [cooperation] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Эффективное взаимодействие и сотрудничество - это умение успешно работать совместно с другими членами организации, добиваться скоординированных действий для реализации целей компании.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (сотрудничество)] (*<- lang_ru;;*);;
+			*);;

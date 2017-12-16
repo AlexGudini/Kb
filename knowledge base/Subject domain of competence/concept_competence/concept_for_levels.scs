@@ -1,0 +1,48 @@
+
+sc_node_not_relation -> concept_competence_by_levels;;
+concept_competence_by_levels
+=> nrel_main_idtf:
+					[компетенция по уровням]
+						(* <- lang_ru;; *);;
+concept_competence_by_levels => nrel_main_idtf:
+		
+		[competence by levels]
+			(* <- lang_en;; *);;
+
+concept_competence_by_levels <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(компетенция по уровням)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Компетенции по уровням – модель, описывающая широкий спектр 
+		работ с различными требованиями к их выполнению.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+concept_competence_by_levels => nrel_inclusion:
+	concept_personal_business_competence;
+	concept_communication_competence;
+	concept_education_cognitive_competence;
+	concept_environmental_competence;
+	concept_pedagogical_competence;
+	concept_research_competence;
+	concept_valeological_competence;
+	concept_lead_competence;;
+
+
+concept_competence_by_levels<-rrel_key_sc_element:...(*
+	<-sc_text_definition;;
+	<-sc_statement;;
+	<=nrel_sc_text_translation:...(*
+		->[Поведенческие индикаторы в рамках каждой 
+		компетенции представляют собой отдельные списки (уровни).
+		 Это позволяет под одним заголовком представлять несколько 
+		 разных компетенций, обеспечивая удобство практического
+		  использования модели компетенций при необходимости охвата
+		   широкого спектра функциональных ролей. Введение уровней 
+		   компетенций позволяет более адекватно оценивать персональные 
+		   компетенции, не усложняя структуру идеальных 
+		   компетентностных профилей.](*<-lang_ru;;*);;
+	*);;
+*);;

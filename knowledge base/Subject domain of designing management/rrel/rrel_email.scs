@@ -1,0 +1,44 @@
+rrel_email
+<-sc_node_role_relation;
+
+=>nrel_main_idtf:
+[электронная почта'](*<-lang_ru;;*);
+[e-mail'](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [е-mail’ – это ролевое отношение, связывающее знак исполнителя задания и знак адреса его электронной почты](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Адрес электронной почты – запись однозначно идентифицирующая почтовый ящик (ящик электронной почты), который следует использовать для отправки сообщения с помощью электронной почты](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Адрес электронной почты состоит из двух частей, разделённых символом «@». Левая чать указывает имя почтового ящика, часто оно совпадает с логином (учётной записью) физического лица. Правая часть адреса указывает доменное имя того сервера, на котором расположен почтовый электронный ящик.](* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+

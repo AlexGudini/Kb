@@ -1,0 +1,37 @@
+sc_node_not_relation -> concept_psychophysiological_characteristics_of_man;;
+
+concept_psychophysiological_characteristics_of_man=>nrel_idtf:
+[психофизиологические особенности, существенные для организации управления обучением](*<-lang_ru;;*);;
+
+concept_psychophysiological_characteristics_of_man => nrel_main_idtf:
+					                     [психофизиологические особенности человека](*<-lang_ru;;*);
+					                     [psychophysiological characteristics of man](*<-lang_en;;*);;
+
+
+concept_psychophysiological_characteristics_of_man <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [ Каждый человек обладает психофизиологическими особенностями. Поэтому можно говорить о том,
+                           что человек по своим пригодным данным более или менее подготовлен к успешному овладению определённой 
+                           профессией или групповой профессией.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (психофизиологические особенности, профессия)] (*<- lang_ru;;*);;
+                       *);;
+
+concept_psychophysiological_characteristics_of_man -> concept_cognitive_abilities;;
+concept_psychophysiological_characteristics_of_man -> concept_entrepreneurial_skills;;
+concept_psychophysiological_characteristics_of_man -> concept_general_labor_skills;;
+concept_psychophysiological_characteristics_of_man -> concept_introspection;;
+concept_psychophysiological_characteristics_of_man -> concept_multivalent_competence;;
+concept_psychophysiological_characteristics_of_man -> concept_planning;;
+concept_psychophysiological_characteristics_of_man -> concept_self_control;;
+concept_psychophysiological_characteristics_of_man -> concept_self_management_skills;;
+concept_psychophysiological_characteristics_of_man -> concept_sensorymotor_qualifications;;
+concept_psychophysiological_characteristics_of_man -> concept_special_cognitive_abilities;;
+concept_psychophysiological_characteristics_of_man -> concept_thinking;;
+concept_psychophysiological_characteristics_of_man -> concept_training;;
+concept_psychophysiological_characteristics_of_man -> concept_understanding;;
+concept_psychophysiological_characteristics_of_man -> nrel_personal_qualifications;;
+concept_psychophysiological_characteristics_of_man -> nrel_special_abilities;;

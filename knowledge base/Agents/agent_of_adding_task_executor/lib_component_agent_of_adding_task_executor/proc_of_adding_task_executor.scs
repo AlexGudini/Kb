@@ -1,0 +1,74 @@
+scp_program -> proc_of_adding_task_executor (*
+
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _task;; 
+ 		-> rrel_2: rrel_in: _executor;;
+	*);;
+
+  	-> rrel_operators: ... (*
+
+		-> rrel_init: .proc_of_adding_task_executor_print1 (*
+      			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Агент начал работу];;
+			=> nrel_goto: .proc_of_adding_task_executor_search_task;;
+		*);;
+
+		-> .proc_of_adding_task_executor_search_task (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: project_task;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+			=> nrel_then: .proc_of_adding_task_executor_print2;;
+			=> nrel_else: .proc_of_adding_task_executor_print5;;
+		*);;
+
+		-> .proc_of_adding_task_executor_print2 (*
+      			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Поиск задачи];;
+			=> nrel_goto: .proc_of_adding_task_executor_search_executor;;
+		*);;
+
+		-> .proc_of_adding_task_executor_search_executor (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: project_design_management_ostis_systems_environment_team;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _executor;;
+			=> nrel_then: .proc_of_adding_task_executor_print3;;
+			=> nrel_else: .proc_of_adding_task_executor_print5;;
+		*);;
+
+		-> .proc_of_adding_task_executor_print3 (*
+      			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Поиск исполнителя];;
+			=> nrel_goto: .proc_of_adding_task_executor_add_executor;;
+		*);;
+
+		-> .proc_of_adding_task_executor_add_executor (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _task;;
+      			-> rrel_2: rrel_const: rrel_assign: rrel_scp_var: rrel_common: _arc3;;
+      			-> rrel_3: rrel_fixed: rrel_scp_var: _executor;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc4;;
+      			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_executor;;
+			=> nrel_goto: .proc_of_adding_task_executor_print4;;
+		*);;
+
+		-> .proc_of_adding_task_executor_print4 (*
+      			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Добавление исполнителя];;
+			=> nrel_goto: .proc_of_adding_task_executor_print5;;
+		*);;
+
+		-> .proc_of_adding_task_executor_print5 (*
+      			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Агент завершил работу];;
+			=> nrel_goto: .proc_of_adding_task_executor_return;;
+		*);;
+
+		-> .proc_of_adding_task_executor_return (*
+    			<- return;;
+		*);;
+
+	*);;
+
+*);;

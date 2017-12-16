@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_project_task;;
+
+concept_project_task => nrel_main_idtf:
+					[задача проекта](*<-lang_ru;;*);
+					[project task](*<-lang_en;;*);;
+
+concept_project_task <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Задачей проекта являются конкретные действия, приводящие к выполнению цели.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (задача проекта)] (*<- lang_ru;;*);;
+                       *);;

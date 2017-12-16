@@ -1,0 +1,22 @@
+sc_node_not_relation ->concept_tradition;;
+concept_tradition
+=> nrel_main_idtf:
+					[традиция]
+						(* <- lang_ru;; *);;
+concept_tradition => nrel_main_idtf:
+		
+		[tradition]
+			(* <- lang_en;; *);;
+
+concept_tradition <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(традиция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Обычай, установившийся порядок в поведении, в быту.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+

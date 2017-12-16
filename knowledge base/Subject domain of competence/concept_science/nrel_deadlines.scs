@@ -1,0 +1,37 @@
+sc_node_norole_relation -> nrel_deadlines;;
+
+nrel_deadlines => nrel_main_idtf: [сроки выполнения*] (*<- lang_ru;;*);
+                                  [deadlines*] (*<- lang_en;;*);;
+
+nrel_deadlines <- binary_relation; oriented_relation; section_subject_domain_of_desingning_managment;;
+
+nrel_deadlines <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Сроки выполнения* - временные рамки реализации проекта.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (сроки выполнения*)] (*<- lang_ru;;*);;
+                       *);;
+
+nrel_deadlines <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Сроки выполнения* - это множество связок, связывающих проект с временными рамками (с_ и по_) его реализации исполнителями.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (сроки выполнения)] (*<- lang_ru;;*);;
+                       *);;
+
+nrel_deadlines <- rrel_key_sc_element: ...
+                      (*
+                        <- sc_illustration;;
+                        <= nrel_sc_text_translation: ...
+                        (*
+                          -> rrel_example: "file://nrel_deadlines_example.jpg";;
+                         *);;
+                       *);;
+
+nrel_deadlines => nrel_first_domain: concept_project; nrel_second_domain: concept_time_point;;

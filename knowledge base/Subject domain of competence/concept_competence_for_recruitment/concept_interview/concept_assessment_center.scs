@@ -1,0 +1,29 @@
+sc_node_not_relation ->concept_assessment_center;;
+concept_assessment_center
+=> nrel_main_idtf:
+					[ассессмент-центр]
+						(* <- lang_ru;; *);;
+concept_assessment_center => nrel_main_idtf:
+		
+		[assessment interview]
+			(* <- lang_en;; *);;
+
+concept_assessment_center <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(ассессмент-центр)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Оценка компетенций участников
+		 осуществляется посредством наблюдения 
+		 за их реальным поведением в предлагаемых 
+		 ситуациях разного формата: групповые дискуссии, 
+		 парные игры, индивидуальные письменные задания] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_assessment_center <= nrel_inclusion: concept_interview;;
+
+
+
+
+

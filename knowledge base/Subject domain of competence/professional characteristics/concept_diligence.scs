@@ -1,0 +1,19 @@
+sc_node_not_relation -> concept_diligence;;
+
+concept_diligence => nrel_main_idtf:
+					                     [испонительность](*<-lang_ru;;*);
+					                     [diligence](*<-lang_en;;*);;
+
+
+concept_diligence <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		           <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Исполнительность — положительное нравственно этическое качество личности,
+                           проявляющееся как готовность и способность честно и в соответствии с законом (инструкцией, предписанием, просьбой)
+                            выполнять поручение, функцию, поставленную задачу.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (испонительность)] (*<- lang_ru;;*);;
+                       *);;
+

@@ -1,0 +1,16 @@
+sc_node_norole_relation -> concept_developing_task;;
+
+concept_developing_task => nrel_main_idtf: [задача разработки] (*<- lang_ru;;*);
+                                      	   [developing task] (*<- lang_en;;*);
+
+			<- concept_project_task;
+
+			<- rrel_key_sc_element: ...
+                        (* 
+                          <- sc_text_definition;;
+ 		          <= nrel_sc_text_translation: ... 
+                          (*
+                            -> [Задача, решаемая на стадии разработки проекта.] (*<- lang_ru;;*);; 
+                           *);;
+                          => nrel_main_idtf: [Опр. (задача разработки)] (*<- lang_ru;;*);;
+                         *);;

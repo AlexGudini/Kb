@@ -1,0 +1,8 @@
+professor
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[профессор](*<-lang_ru;;*);
+[professor](*<-lang_en;;*);
+
+<-academic_title;;

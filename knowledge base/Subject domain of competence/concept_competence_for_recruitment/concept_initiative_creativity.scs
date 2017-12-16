@@ -1,0 +1,27 @@
+concept_initiative_creativity
+<-sc_node_not_relation;;
+
+concept_initiative_creativity => nrel_main_idtf: [инициативность и творческий подход] (*<-lang_ru;;*);
+		  				[initiative and creativity ] (*<-lang_en;;*);;
+
+concept_initiative_creativity <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Инициативность и творческий подход, то есть владение навыками формирования плана и осуществления деятельности в отсутствие детально расписанной инструкции.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (инициативность и творческий подход)] (*<- lang_ru;;*);;
+			*);;
+
+concept_initiative_creativity <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Требует готовности отвечать на вызовы в будущем, подготовка к ним заранее, прием на себя дополнительной ответственности, разработка новых решений для старых проблем, оценка пользы техники и технологии для новых решений.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Утв. (инициативность и творческий подход)] (*<- lang_ru;;*);;
+			*);;

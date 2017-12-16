@@ -1,0 +1,14 @@
+sc_node_not_relation -> concept_debugging;;
+
+concept_debugging => nrel_main_idtf: [отладка] (*<- lang_ru;;*);
+                                     [debugging] (*<- lang_en;;*);;
+
+concept_debugging <- rrel_key_sc_element: ...
+						(*
+						<-sc_explanation;;
+						<=nrel_sc_text_translation: ...
+									(*
+									->[Отлака - этап разработки компьютерной программы, на котором обнаруживают, локализуют и устраняют ошибки.](*<-lang_ru;;*);;
+									*);;
+						=>nrel_main_idtf:[Опр. (отладка)](*<-lang_ru;;*);;
+						*);;

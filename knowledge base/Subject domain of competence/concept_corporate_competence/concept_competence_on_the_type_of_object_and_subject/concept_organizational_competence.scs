@@ -1,0 +1,25 @@
+concept_organizational_competence <- sc_node_not_relation;;
+
+concept_organizational_competence => nrel_main_idtf: [организационная компетенция] (*<-lang_ru;;*);
+						     [organizational competence] (*<-lang_en;;*);;
+
+concept_organizational_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Это то, где разворачивается деятельность организации] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (организационная компетенция)] (*<- lang_ru;;*);;
+			*);;
+
+concept_organizational_competence <- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Миссия,  ценности, культура, профессиональное поле] (*<- lang_ru;;*);; 
+                         *);;
+			*);;

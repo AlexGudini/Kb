@@ -1,0 +1,55 @@
+sc_node_norole_relation -> nrel_stages_development_competence_model;;
+
+nrel_stages_development_competence_model
+=> nrel_main_idtf: 
+    [этапы разработки модели компетенций*](* <- lang_ru;; *);;
+
+nrel_stages_development_competence_model
+=> nrel_main_idtf:
+    [stages of development of a competency model*](* <- lang_en;; *);;
+    
+
+nrel_stages_development_competence_model =>
+nrel_first_domain: concept_competence_model;;
+
+nrel_stages_development_competence_model =>
+nrel_second_domain: concept_development_competence_model;; 
+
+
+nrel_stages_development_competence_model<-rrel_key_sc_element:...
+(*
+  <-sc_definition;;
+  
+  
+  <=nrel_sc_text_translation: ...
+  (*
+    ->[Этапы разработки модели компетенций - последовательность 
+    действий необходимых для разработки(создания) 
+    модели компетенций](*<-lang_ru;;*);;
+  *);;
+  =>nrel_main_idtf: [Опр.(этапы разработки модели компетенций)](*<-lang_ru;;*);;
+*);;
+
+
+
+nrel_stages_development_competence_model<-rrel_key_sc_element:...
+(*
+  =>nrel_idtf:[утв.(модель компетенций*,знание*,умение*,навык*, характеристика*)](*<-lang_ru;;*);;
+  <-sc_statement;;
+  <=nrel_sc_text_translation:...
+  (*
+    ->[Модель компетенций может включать в себя самые различные знания, умения, навыки и индивидуально-личностные характеристики.](*<-lang_ru;;*);;
+  *);;
+*);;
+    
+
+nrel_stages_development_competence_model<-rrel_key_sc_element:...(*
+  =>nrel_idtf:[утв.(модель компетенций,компетенция*,персонал компании)](*<-lang_ru;;*);;
+  <-sc_statement;;
+  <=nrel_sc_text_translation:...
+  (*
+    ->[Компетенции используются при оценке персонала компании. В этом случае совокупность компетенций представляет собой Модель Компетенций](*<-lang_ru;;*);;
+  *);;
+*);;
+
+    

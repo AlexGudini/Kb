@@ -1,0 +1,24 @@
+sc_node_not_relation -> concept_project_phase;;
+
+concept_project_phase => nrel_main_idtf: [фаза проекта] (*<- lang_ru;;*);
+                                         [project phase] (*<- lang_en;;*);
+                      => nrel_idtf: [этап жизненного цикла проекта] (*<- lang_ru;;*);
+                                    [stage of the project life cycle] (*<- lang_en;;*);
+
+                      => nrel_idtf: [этап проекта] (*<- lang_ru;;*);
+                                    [project stage] (*<- lang_en;;*);
+
+                      => nrel_idtf: [текущее состояние проекта] (*<- lang_ru;;*);
+                                    [current condition of the project] (*<- lang_en;;*);
+
+                      -> initiation; planning; developing; testing; introduction; support;;
+
+concept_project_phase <- rrel_key_sc_element: ...
+                      (* 
+                        <- sc_text_definition;;
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [В общем случае жизненный цикл любого проекта за время разработки проходит 6 фаз развития: инициация, планирование, разработка, тестирование, внедрение, сопровождение.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (фаза проекта)] (*<- lang_ru;;*);;
+                       *);;

@@ -1,0 +1,18 @@
+concept_delegation_of_authority
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [делегирование полномочий] (*<-lang_ru;;*);
+		  [delegation of authority] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Делегирование полномочий – т.е. передача части функций руководителя подчиненному при условии передачи ответственности за порученное дело.
+
+] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (делегирование полномочий)] (*<- lang_ru;;*);;
+			*);;

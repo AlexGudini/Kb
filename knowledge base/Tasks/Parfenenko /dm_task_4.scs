@@ -1,0 +1,8 @@
+dm_task_4
+	=> nrel_main_idtf:[Задача #4. Формализвать на scs](*<- lang_ru;;*);
+	=> nrel_executor: Parfenenko_Artyom_Sergeevich;
+	<- project_task;
+	<- important_project_task;
+	<- innovation_project_task;
+	<- completed_project_task;
+	<- dm_decomposition_of_tasks;;

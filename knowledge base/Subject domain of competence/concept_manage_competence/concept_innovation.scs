@@ -1,0 +1,16 @@
+concept_innovation
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [новаторство] (*<-lang_ru;;*);
+		  [innovation] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Новаторство – стремление к освоению и применению новых прогрессивных методов работы.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (новаторство)] (*<- lang_ru;;*);;
+			*);;

@@ -1,0 +1,26 @@
+sc_node_not_relation ->concept_external_experience;;
+concept_external_experience
+=> nrel_main_idtf:
+					[внешний опыт]
+						(* <- lang_ru;; *);;
+concept_external_experience => nrel_main_idtf:
+		
+		[external experience]
+			(* <- lang_en;; *);;
+
+concept_external_experience <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(внешний опыт)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Внешний опыт – это осознание 
+		каких-то состояний или влияний с помощью органов чувств] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_external_experience => nrel_subdividing:
+		concept_physical_experience;
+		concept_social_experience;;
+	

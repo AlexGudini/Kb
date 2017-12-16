@@ -1,0 +1,36 @@
+concept_household_competent
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [бытовая компетентность] (*<-lang_ru;;*);
+		  [household competent] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Бытовая компетентность - это компетентность в бытовой сфере.] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (бытовая компетентность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Включение аспектов собственного здоровья] (*<- lang_ru;;*);; 
+                         *);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Семейное бытие] (*<- lang_ru;;*);; 
+                         *);;
+			*);;

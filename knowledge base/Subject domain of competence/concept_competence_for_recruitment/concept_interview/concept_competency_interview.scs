@@ -1,0 +1,25 @@
+
+sc_node_not_relation ->concept_competency_interview;;
+concept_competency_interview
+=> nrel_main_idtf:
+					[интервью по компетенциям]
+						(* <- lang_ru;; *);;
+concept_competency_interview => nrel_main_idtf:
+		
+		[competency interview]
+			(* <- lang_en;; *);;
+
+concept_competency_interview <- rrel_key_sc_element:
+...(*
+	<-sc_text_explanation;;
+	=>nrel_main_idtf:[Опр.(интервью по компетенциям)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Интервью по компетенциям - интервью сочетает
+		 в себе элементы свободного
+		 и структурированного интервью.] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+concept_competency_interview <= nrel_inclusion: concept_interview;;
+
+

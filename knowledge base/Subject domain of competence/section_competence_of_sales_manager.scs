@@ -1,0 +1,18 @@
+section_competence_of_sales_manager
+	=>nrel_main_idtf:[Раздел компетенций отдела продаж](*<-lang_ru;;*);
+			 [Section competence of sales manager](*<-lang_en;;*);;
+
+	section_competence_of_sales_manager
+	->rrel_key_sc_element_of_subject_domain:
+		concept_ability_to_sell_on_technology;
+		concept_business_vision;
+		concept_competence_of_the_sales_manager;
+		concept_conflict_resolution;
+		concept_degree_of_manager_effectiveness;
+		concept_desire_to_grow;
+		concept_education_cognitive_competence;
+		concept_expansioin_of_the_customer_base;
+		concept_pedagogical_competence;
+		concept_work_with_clients;
+		concept_work_with_discounts;;
+	

@@ -1,0 +1,35 @@
+nrel_location_of_member
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[местоположение участника*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:individual;
+=>nrel_second_domain:adress;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->individual;; ->adress;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [местоположение участника* – это бинарное ориентированное отношение, каждая связка которого связывает физическое лицо с его основным местонахождением](* <-lang_ru;; *);; 
+		*);;
+	*);
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                "file://explanation_for_nrel_location_of_member.html"(* <-lang_ru;; *);; 
+		*);;
+	*);;
+

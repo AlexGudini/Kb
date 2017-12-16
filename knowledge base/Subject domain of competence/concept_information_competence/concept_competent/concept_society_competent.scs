@@ -1,0 +1,27 @@
+concept_society_competent
+<-sc_node_not_relation;
+
+=>nrel_main_idtf: [общественная компетентность] (*<-lang_ru;;*);
+		  [society competent] (*<-lang_en;;*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> [Общественная компетентность - это компетентность в сфере гражданско-общественной деятельности (выполнение ролей гражданина, избирателя, потребителя)] (*<- lang_ru;;*);; 
+                         *);;
+                        => nrel_main_idtf: [Опр. (общественная компетентность)] (*<- lang_ru;;*);;
+			*);
+
+<- rrel_key_sc_element: ... 
+                       (* 
+                        <- sc_explanation;;
+
+ 		        <= nrel_sc_text_translation: ... 
+                        (*
+                          -> rrel_example: [Выполнение ролей гражданина, избирателя, потребителя.] (*<- lang_ru;;*);; 
+                         *);;
+			*);;
+

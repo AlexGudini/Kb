@@ -1,0 +1,4 @@
+sc_node_not_relation -> concept_organization;;
+
+concept_organization => nrel_main_idtf: [организация] (*<- lang_ru;;*);
+                                        [organization] (*<- lang_en;;*);;

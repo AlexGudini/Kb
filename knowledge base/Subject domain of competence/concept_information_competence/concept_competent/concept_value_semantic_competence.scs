@@ -1,0 +1,28 @@
+sc_node_not_relation ->concept_value_semantic_competence;;
+concept_value_semantic_competence
+=> nrel_main_idtf:
+					[ценностно-смысловая компетенция]
+						(* <- lang_ru;; *);;
+concept_value_semantic_competence => nrel_main_idtf:
+		
+		[value-semantic competence]
+			(* <- lang_en;; *);;
+
+concept_value_semantic_competence <- rrel_key_sc_element:
+...(*
+	<-sc_text_definition;;
+	=>nrel_main_idtf:[Опр.(ценностно-смысловая компетенция)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation: ...(*
+		->[Ценностно-смысловая компетенция - ценностные отношения, направленность личности] (*<-lang_ru;;*);;
+	*);;
+*);;
+
+
+
+concept_value_semantic_competence => nrel_inclusion:
+	      concept_custom;
+	       concept_worth;
+	       concept_tradition;;
+	
+
+

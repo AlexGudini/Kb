@@ -1,0 +1,4 @@
+project_design_management_ostis_systems_environment_tasks
+	=> nrel_main_idtf:[задачи в рамках разработки проекта "Среда управления проектированием ostis-систем"](* <-lang_ru;; *);
+	=> nrel_main_idtf:[design management environment ostis-systems tasks](* <-lang_en;; *);
+	=> nrel_decomposition_of_tasks: dm_decomposition_of_tasks;;

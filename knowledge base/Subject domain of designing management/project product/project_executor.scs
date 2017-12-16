@@ -1,0 +1,38 @@
+project_executor<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[исполнитель](*<-lang_ru;;*);
+[executor](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_duties:
+[Исполнитель обязан выполнять проектную задачу (проект) согласно утвержденному плану.](* <-lang_ru;; *);
+
+<-member;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                [исполнитель – физическое лицо, участвующее в реализации проекта путём выполнения поставленных перед ним проектных задач](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+                "file://explanation_for_project_executor.html"(* <-lang_ru;; *);; 
+		*);;
+	*);;
+
